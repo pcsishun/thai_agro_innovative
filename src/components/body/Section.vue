@@ -22,14 +22,45 @@
 
             </div>
         </div>
-
+    </div>
+    <div class="set-component-container">
+        <HighPerformance/>    
+    </div>
+    <div class="set-component-container">
+        <SaveEnergy/>    
+    </div>
+    <div class="set-component-container">
+        <LessWater/>    
+    </div>
+    <div class="set-component-container">
+        <EasyInstallation/>    
+    </div>
+    <div class="set-component-container">
+        <EasyMaintenace/>    
+    </div>
+    <div class="set-component-container-mission">
+        <Mission/>    
     </div>
   </div>
 </template>
 
 <script>
-export default {
+import HighPerformance from './feature_components/HighPerformance.vue'
+import SaveEnergy from './feature_components/SaveEnergy.vue'
+import LessWater from './feature_components/LessWater.vue'
+import EasyInstallation from './feature_components/EasyInstallaion.vue'
+import EasyMaintenace from './feature_components/EasyMaintenace.vue'
+import  Mission from './mission/Mission.vue'
 
+export default {
+    components:{
+        HighPerformance,
+        SaveEnergy,
+        LessWater,
+        EasyInstallation,
+        EasyMaintenace,
+        Mission
+    }
 }
 </script>
 
@@ -38,6 +69,7 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
+       
     }
     .section-container{
         margin-left: 100px;
@@ -69,6 +101,12 @@ export default {
         margin-top: 3rem;
         margin-left: 5rem;
     }
+    .set-component-container{
+        margin-top: 120px;
+    }
+    .set-component-container-mission{
+        margin-top: 147px;
+    }
 }
 @media  screen and (min-width: 990px) and (max-width: 1800px){
     .section-content{
@@ -78,7 +116,6 @@ export default {
     .section-container{
         margin-left: 60px;
         margin-right: 60px;
-        border: 1px solid red;
     }
     .desc-section{
         margin-top: 12px;
@@ -97,11 +134,20 @@ export default {
         height: 360px;
         border-radius: 8px;
     }
+    .image-container-pc{
+        margin-left: 3rem;
+    }
     .image-container-mobile{
         display: none;
     }
     .content-section{
         margin-top: 3rem;
+    }
+    .set-component-container{
+        margin-top: 160px;
+    }
+    .set-component-container-mission{
+        margin-top: 147px;
     }
 }
 
@@ -142,7 +188,12 @@ export default {
     .content-section{
         margin-left: 10px;
         margin-right: 10px;
-
+    }
+    .set-component-container{
+        margin-top: 60px;
+    }
+    .set-component-container-mission{
+        margin-top: 60px;
     }
 }
 </style>

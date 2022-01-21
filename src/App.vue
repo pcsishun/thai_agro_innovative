@@ -9,6 +9,7 @@
 import Navbar from './components/navbar/Navbar.vue'
 import Section from './components/body/Section.vue'
 
+
 export default {
   name: 'App',
   components: {
