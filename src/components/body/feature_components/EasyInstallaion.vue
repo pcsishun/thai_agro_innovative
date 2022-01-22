@@ -3,7 +3,6 @@
         <div class="easy-install-content">
             <div class="img-container-mobile">
                 <div class="on-set-image">
-                    
                 </div>
             </div>
             <div class="content-container">
@@ -33,7 +32,7 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 1401px){
     .img-container-mobile{
         display: none;
     }
@@ -65,12 +64,11 @@ export default {
         margin-left: 10rem;
     }
 }
-
-@media  screen and (min-width: 990px) and (max-width: 1800px){
+ @media screen and (min-width: 1310px) and (max-width: 1400px){
     .img-container-mobile{
         display: none;
     }
-    .easy-install-content{
+    .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
@@ -85,7 +83,7 @@ export default {
         margin-left: 6rem;
     }
     .set-content-container{
-        margin-top: 8rem;
+        margin-top: 5rem;
         margin-left: 4.3rem;
     }
     .test-img{
@@ -94,7 +92,39 @@ export default {
         width: 100px;
         height: 100px;
         border-radius: 50px;
-        margin-left: 10rem;
+        margin-left: 5rem;
+    }
+ }
+
+@media  screen and (min-width: 990px) and (max-width: 1309px){
+    .img-container-mobile{
+        display: none;
+    }
+    .easy-install-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .on-set-image{
+        width: 680px;
+        height: 380px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        margin-left: 6rem;
+    }
+    .set-content-container{
+        margin-top: 5rem;
+        margin-left: 4.3rem;
+    }
+    .test-img{
+        background-color: rgb(187, 187, 187);
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 5rem;
     }
 }
 
@@ -110,6 +140,9 @@ export default {
         background-color: #F4F4F4;
         text-align: center;
         margin: auto;
+    }
+    .title-content, .desc-content{
+        margin-left: 1.5rem;
     }
  
     .content-container{

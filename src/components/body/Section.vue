@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="set-component-container">
+    <!-- <div class="set-component-container" id="#feature">
         <HighPerformance/>    
     </div>
     <div class="set-component-container">
@@ -38,28 +38,38 @@
     <div class="set-component-container">
         <EasyMaintenace/>    
     </div>
-    <div class="set-component-container-mission">
+    <div class="set-component-container-mission" id="#mission">
         <Mission/>    
     </div>
+    <div class="set-component-container-staff" id="#staff">
+        <Staff/>    
+    </div>
+    <div class="set-component-container" id="#contact">
+        <ContactUs/>    
+    </div> -->
   </div>
 </template>
 
 <script>
-import HighPerformance from './feature_components/HighPerformance.vue'
-import SaveEnergy from './feature_components/SaveEnergy.vue'
-import LessWater from './feature_components/LessWater.vue'
-import EasyInstallation from './feature_components/EasyInstallaion.vue'
-import EasyMaintenace from './feature_components/EasyMaintenace.vue'
-import  Mission from './mission/Mission.vue'
+// import HighPerformance from './feature_components/HighPerformance.vue'
+// import SaveEnergy from './feature_components/SaveEnergy.vue'
+// import LessWater from './feature_components/LessWater.vue'
+// import EasyInstallation from './feature_components/EasyInstallaion.vue'
+// import EasyMaintenace from './feature_components/EasyMaintenace.vue'
+// import Mission from './mission/Mission.vue'
+// import Staff from './staff/Staff.vue'
+// import ContactUs from './contact_us/ContactUs.vue'
 
 export default {
     components:{
-        HighPerformance,
-        SaveEnergy,
-        LessWater,
-        EasyInstallation,
-        EasyMaintenace,
-        Mission
+        // HighPerformance,
+        // SaveEnergy,
+        // LessWater,
+        // EasyInstallation,
+        // EasyMaintenace,
+        // Mission,
+        // Staff,
+        // ContactUs
     }
 }
 </script>
@@ -74,7 +84,6 @@ export default {
     .section-container{
         margin-left: 100px;
         margin-right: 100px;
-        border: 1px solid red;
     }
     .desc-section{
         margin-top: 12px;
@@ -101,12 +110,7 @@ export default {
         margin-top: 3rem;
         margin-left: 5rem;
     }
-    .set-component-container{
-        margin-top: 120px;
-    }
-    .set-component-container-mission{
-        margin-top: 147px;
-    }
+ 
 }
 @media  screen and (min-width: 990px) and (max-width: 1800px){
     .section-content{
@@ -143,12 +147,7 @@ export default {
     .content-section{
         margin-top: 3rem;
     }
-    .set-component-container{
-        margin-top: 160px;
-    }
-    .set-component-container-mission{
-        margin-top: 147px;
-    }
+ 
 }
 
 @media only screen and (max-width: 990px){
@@ -189,12 +188,9 @@ export default {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .set-component-container{
-        margin-top: 60px;
-    }
-    .set-component-container-mission{
-        margin-top: 60px;
-    }
+ 
+  
+    
 }
 </style>
 

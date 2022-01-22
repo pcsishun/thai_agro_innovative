@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ฟีเจอร์การใช้งาน</a>
+                        <a class="nav-link" href="#feature">ฟีเจอร์การใช้งาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">พันธกิจ</a>
+                        <a class="nav-link" href="#mission">พันธกิจ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">ทีมงาน</a>
