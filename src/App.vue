@@ -26,6 +26,7 @@
     <div class="set-component-container" id="#contact">
         <ContactUs/>    
     </div>
+    <Footer class="set-footer"/>
   </div>
 </template>
 
@@ -40,7 +41,7 @@ import EasyMaintenace from './components/body/feature_components/EasyMaintenace.
 import Mission from './components/body/mission/Mission.vue'
 import Staff from './components/body/staff/Staff.vue'
 import ContactUs from './components/body/contact_us/ContactUs.vue'
-
+import Footer from './components/footer/Footer.vue'
 
 export default {
   name: 'App',
@@ -54,7 +55,8 @@ export default {
     EasyMaintenace,
     Mission,
     Staff,
-    ContactUs
+    ContactUs,
+    Footer
   }
 }
 </script>
@@ -69,6 +71,10 @@ body{
  }
 .set-navbar{
    margin-bottom: 60px;
+ }
+
+ .set-footer{
+   margin-top: 60px;
  }
  @media screen and (min-width: 1800px){
       .set-component-container{
