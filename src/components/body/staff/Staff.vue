@@ -17,8 +17,9 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name1</h6>
+                            <button @click="haddleProfile('1')"><StaffDetail/></button>
+                            <!-- <p>View bio ></p> -->
                         </div>
                     </div>
                     <div class="staff-content">
@@ -27,8 +28,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name2</h6>
+                            <button @click="haddleProfile('2')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
@@ -37,8 +38,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name3</h6>
+                            <button @click="haddleProfile('3')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
@@ -47,8 +48,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name4</h6>
+                          <button @click="haddleProfile('4')"><StaffDetail/></button>
                         </div>
                     </div>
                 </div>
@@ -59,8 +60,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name2</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name5</h6>
+                            <button @click="haddleProfile('5')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
@@ -69,8 +70,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name2</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name6</h6>
+                            <button @click="haddleProfile('6')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
@@ -79,8 +80,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name2</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name7</h6>
+                            <button @click="haddleProfile('7')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
@@ -89,8 +90,8 @@
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name2</h6>
-                            <p>View bio ></p>
+                            <h6 >Member name8</h6>
+                            <button @click="haddleProfile('8')"><StaffDetail/></button>
                         </div>
                     </div>
                 </div>
@@ -104,10 +105,14 @@
 </template>
 
 <script>
+import StaffDetail from './modal/StaffDetail.vue'
+
 export default {
+    components:{
+        StaffDetail
+    },
     data(){
         return{
-            staffData: ["member1","member2","member3","member4","member5","member6",],
             menuChange: '0'
         }
     },
@@ -118,12 +123,68 @@ export default {
             }else if(param === '1'){
                 this.menuChange = '1';
             }
+        },
+        haddleProfile(param){
+            if(param === "1"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 1"
+                this.$root.state.staffPosition = "Position test 1"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            }
+            else if(param === "2"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 2"
+                this.$root.state.staffPosition = "Position test 2"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "3"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 3"
+                this.$root.state.staffPosition = "Position test 3"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "4"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 4"
+                this.$root.state.staffPosition = "Position test 4"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "5"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 5"
+                this.$root.state.staffPosition = "Position test 5"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "6"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 6"
+                this.$root.state.staffPosition = "Position test 6"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "7"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 7"
+                this.$root.state.staffPosition = "Position test 7"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
+            else if(param === "8"){
+                this.$root.state.staffImgPath = null,
+                this.$root.state.stafffName = "TEST user 8"
+                this.$root.state.staffPosition = "Position test 8"
+                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+            }
         }
     }
 }
 </script>
 
 <style scoped>
+
+.staff-detail > button{
+    background: none;
+    border: none;
+}
+
 @media screen and (min-width: 1800px){
     .staff-member-container{
         margin-top: 39px;

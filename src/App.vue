@@ -25,7 +25,7 @@
             <Staff/>    
         </div>
         <div class="set-component-container" id="is-set-contact">
-            <ContactUs/>    
+            <ContactUs class="contact-us"/>    
         </div>
     </div>
     <Footer class="set-footer"/>
@@ -82,7 +82,7 @@ body{
      .set-section-component{
          padding-left: 10rem;
      }
-      .set-component-container{
+    .set-component-container{
         margin-top: 160px;
         margin-left: 10rem;
         margin-right: 100px;
@@ -98,13 +98,16 @@ body{
  }
 
   @media screen and (min-width: 1500px) and (max-width: 1799px) {
-      .set-section-component{
+    .set-section-component{
           padding-left: 5rem;
-      }
-      .set-component-container{
+    }
+    .set-component-container{
         margin-top: 160px;
         padding-left: 5rem;
   
+    }
+    .set-component-container > .contact-us{
+        padding-right: 5rem;
     }
     .set-component-container-mission{
         margin-top: 147px;
