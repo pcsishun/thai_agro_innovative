@@ -1,23 +1,23 @@
 <template>
     <div class="navbar-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="#"><img width="150" height="70" src="../.././assets/tai.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to="'#is-set-feature'">ฟีเจอร์การใช้งาน</a>
+                        <a class="nav-link" href="#is-set-feature">ฟีเจอร์การใช้งาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to="'#is-set-mission'">พันธกิจ</a>
+                        <a class="nav-link" href="#is-set-mission">พันธกิจ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to="'#is-set-staff'">ทีมงาน</a>
+                        <a class="nav-link" href="#is-set-staff" >ทีมงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" v-scroll-to="'#is-set-contact'">ติดต่อเรา</a>
+                        <a class="nav-link" href="#is-set-contact">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>
