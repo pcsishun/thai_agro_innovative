@@ -1,30 +1,32 @@
 <template>
   <div id="app">
     <Navbar class="set-navbar"/>
-    <Section/>
-    <div class="set-component-container"  ref="feature">
-        <HighPerformance/>    
-    </div>
-    <div class="set-component-container">
-        <SaveEnergy/>    
-    </div>
-    <div class="set-component-container">
-        <LessWater/>    
-    </div>
-    <div class="set-component-container">
-        <EasyInstallation/>    
-    </div>
-    <div class="set-component-container">
-        <EasyMaintenace/>    
-    </div>
-    <div class="set-component-container-mission" id="#mission">
-        <Mission/>    
-    </div>
-    <div class="set-component-container-staff" id="#staff">
-        <Staff/>    
-    </div>
-    <div class="set-component-container" id="#contact">
-        <ContactUs/>    
+    <div class="body-container">
+        <Section class="set-section-component"/>
+        <div class="set-component-container"  id="is-set-feature">
+            <HighPerformance/>    
+        </div>
+        <div class="set-component-container">
+            <SaveEnergy/>    
+        </div>
+        <div class="set-component-container">
+            <LessWater/>    
+        </div>
+        <div class="set-component-container">
+            <EasyInstallation/>    
+        </div>
+        <div class="set-component-container">
+            <EasyMaintenace/>    
+        </div>
+        <div class="set-component-container-mission" id="is-set-mission">
+            <Mission/>    
+        </div>
+        <div class="set-component-container-staff" id="is-set-staff">
+            <Staff/>    
+        </div>
+        <div class="set-component-container" id="is-set-contact">
+            <ContactUs/>    
+        </div>
     </div>
     <Footer class="set-footer"/>
   </div>
@@ -77,9 +79,12 @@ body{
    margin-top: 60px;
  }
  @media screen and (min-width: 1800px){
+     .set-section-component{
+         padding-left: 10rem;
+     }
       .set-component-container{
         margin-top: 160px;
-        margin-left: 100px;
+        margin-left: 10rem;
         margin-right: 100px;
     }
     .set-component-container-mission{
@@ -87,13 +92,32 @@ body{
     }
     .set-component-container-staff{
         margin-top: 168px;
-        margin-left: 100px;
+        margin-left: 10rem;
         margin-right: 100px
-        
     }
  }
 
-  @media screen and (min-width: 1401px) and (max-width: 1799px) {
+  @media screen and (min-width: 1500px) and (max-width: 1799px) {
+      .set-section-component{
+          padding-left: 5rem;
+      }
+      .set-component-container{
+        margin-top: 160px;
+        padding-left: 5rem;
+  
+    }
+    .set-component-container-mission{
+        margin-top: 147px;
+    }
+    .set-component-container-staff{
+        margin-top: 168px;
+        margin-left: 60px;
+        padding-left: 5rem;
+        margin-right: 60px
+    }
+  }
+
+  @media screen and (min-width: 1401px) and (max-width: 1499px) {
    .set-component-container{
         margin-top: 160px;
     }
@@ -104,7 +128,6 @@ body{
         margin-top: 168px;
         margin-left: 60px;
         margin-right: 60px
-        
     }
  }
 
@@ -123,7 +146,6 @@ body{
         margin-top: 168px;
         margin-left: 60px;
         margin-right: 60px
-        
     }
  }
 

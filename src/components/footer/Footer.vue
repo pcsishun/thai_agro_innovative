@@ -9,10 +9,10 @@
         </div>
       </div>
       <div class="set-ref-link">
-        <a><img height="40" width="40" src="../.././assets/facebook.png"/></a>
-        <a><img height="40" width="40" src="../.././assets/linkedin.png"/></a>
-        <a><img height="40" width="40" src="../.././assets/youtube.png"/></a>
-        <a><img height="40" width="40" src="../.././assets/github.png"/></a>
+        <a href="#"><img height="40" width="40" src="../.././assets/facebook.png"/></a>
+        <a href="#"><img height="40" width="40" src="../.././assets/linkedin.png"/></a>
+        <a href="#"><img height="40" width="40" src="../.././assets/youtube.png"/></a>
+        <a href="#"><img height="40" width="40" src="../.././assets/github.png"/></a>
       </div>
     </div>
   </footer>
@@ -25,7 +25,10 @@ export default {
 </script>
 
 <style  scoped>
- 
+.footer{
+  font-family: 'Noto Sans Thai', sans-serif;
+} 
+
 @media only screen and (min-width: 990px){
   .footer {
   position: absolute;

@@ -8,16 +8,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#feature">ฟีเจอร์การใช้งาน</a>
+                        <a class="nav-link" href="#" v-scroll-to="'#is-set-feature'">ฟีเจอร์การใช้งาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#mission">พันธกิจ</a>
+                        <a class="nav-link" href="#" v-scroll-to="'#is-set-mission'">พันธกิจ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ทีมงาน</a>
+                        <a class="nav-link" href="#" v-scroll-to="'#is-set-staff'">ทีมงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ติดต่อเรา</a>
+                        <a class="nav-link" href="#" v-scroll-to="'#is-set-contact'">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>

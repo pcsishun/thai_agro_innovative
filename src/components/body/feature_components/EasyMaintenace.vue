@@ -69,7 +69,7 @@ export default {
     .img-container-mobile{
         display: none;
     }
-    .high-performance-content{
+    .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
