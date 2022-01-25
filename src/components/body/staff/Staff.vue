@@ -184,15 +184,166 @@ export default {
     background: none;
     border: none;
 }
-
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 3501px){
     .staff-member-container{
         margin-top: 39px;
     }
     .test-img{
         background-color: #F4F4F4;
-        width: 260px;
-        height: 173px;
+        width: 660px;
+        height: 420px;
+    }
+    .staff-member-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .staff-detail > h6{
+        margin-top: 20px
+    }
+    .staff-detail > p{
+        color: #009CFF;
+    }
+    .btn-silder{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .dot:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}
+@media screen and (min-width: 3000px) and (max-width: 3500px){
+    .staff-member-container{
+        margin-top: 39px;
+    }
+    .test-img{
+        background-color: #F4F4F4;
+        width: 560px;
+        height: 390px;
+    }
+    .staff-member-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .staff-detail > h6{
+        margin-top: 20px
+    }
+    .staff-detail > p{
+        color: #009CFF;
+    }
+    .btn-silder{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .dot:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}
+@media screen and (min-width: 2500px) and (max-width: 3000px){
+        .staff-member-container{
+        margin-top: 39px;
+    }
+    .test-img{
+        background-color: #F4F4F4;
+        width: 450px;
+        height: 320px;
+    }
+    .staff-member-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .staff-detail > h6{
+        margin-top: 20px
+    }
+    .staff-detail > p{
+        color: #009CFF;
+    }
+    .btn-silder{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .dot:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}
+@media screen and (min-width: 2001px) and (max-width: 2500px){
+    .staff-member-container{
+        margin-top: 39px;
+    }
+    .test-img{
+        background-color: #F4F4F4;
+        width: 360px;
+        height: 270px;
+    }
+    .staff-member-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .staff-detail > h6{
+        margin-top: 20px
+    }
+    .staff-detail > p{
+        color: #009CFF;
+    }
+    .btn-silder{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .dot:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}
+@media screen and (min-width: 1800px) and (max-width: 2000px){
+    .staff-member-container{
+        margin-top: 39px;
+    }
+    .test-img{
+        background-color: #F4F4F4;
+        width: 340px;
+        height: 270px;
     }
     .staff-member-container{
         display: grid;

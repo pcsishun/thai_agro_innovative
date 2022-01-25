@@ -23,59 +23,168 @@
             </div>
         </div>
     </div>
-    <!-- <div class="set-component-container" id="#feature">
-        <HighPerformance/>    
-    </div>
-    <div class="set-component-container">
-        <SaveEnergy/>    
-    </div>
-    <div class="set-component-container">
-        <LessWater/>    
-    </div>
-    <div class="set-component-container">
-        <EasyInstallation/>    
-    </div>
-    <div class="set-component-container">
-        <EasyMaintenace/>    
-    </div>
-    <div class="set-component-container-mission" id="#mission">
-        <Mission/>    
-    </div>
-    <div class="set-component-container-staff" id="#staff">
-        <Staff/>    
-    </div>
-    <div class="set-component-container" id="#contact">
-        <ContactUs/>    
-    </div> -->
+ 
   </div>
 </template>
 
 <script>
-// import HighPerformance from './feature_components/HighPerformance.vue'
-// import SaveEnergy from './feature_components/SaveEnergy.vue'
-// import LessWater from './feature_components/LessWater.vue'
-// import EasyInstallation from './feature_components/EasyInstallaion.vue'
-// import EasyMaintenace from './feature_components/EasyMaintenace.vue'
-// import Mission from './mission/Mission.vue'
-// import Staff from './staff/Staff.vue'
-// import ContactUs from './contact_us/ContactUs.vue'
-
+ 
 export default {
     components:{
-        // HighPerformance,
-        // SaveEnergy,
-        // LessWater,
-        // EasyInstallation,
-        // EasyMaintenace,
-        // Mission,
-        // Staff,
-        // ContactUs
+ 
     }
 }
 </script>
 
 <style  scoped>
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 3501px){
+    .section-content{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+       
+    }
+    .section-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .desc-section{
+        margin-top: 12px;
+    }
+    .on-contract-btn{
+        margin-top: 40px
+    }
+    .btn-primary{
+        background-color:#009CFF !important ;
+        border: 1px solid #009CFF;
+        border-radius: 8px;
+    }
+    .on-set-image{
+        background-color: #f4f4f4;
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+        margin-left: 1rem;
+    }
+    .image-container-mobile{
+        display: none;
+    }
+    .content-section{
+        margin-top: 3rem;
+        margin-left: 1rem;
+        padding-left: 35rem;
+    }
+}
+@media screen and (min-width: 3001px) and (max-width: 3500px){
+    .section-content{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+    .section-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .desc-section{
+        margin-top: 12px;
+    }
+    .on-contract-btn{
+        margin-top: 40px
+    }
+    .btn-primary{
+        background-color:#009CFF !important ;
+        border: 1px solid #009CFF;
+        border-radius: 8px;
+    }
+    .on-set-image{
+        background-color: #f4f4f4;
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+        margin-left: 1rem;
+    }
+    .image-container-mobile{
+        display: none;
+    }
+    .content-section{
+        margin-top: 3rem;
+        margin-left: 1rem;
+        padding-left: 17rem;
+    }
+}
+@media screen and (min-width: 2500px) and (max-width: 3000px){
+    .section-content{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        padding-right: 5rem;
+        padding-left: 6rem;
+    }
+    .section-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .desc-section{
+        margin-top: 12px;
+    }
+    .on-contract-btn{
+        margin-top: 40px
+    }
+    .btn-primary{
+        background-color:#009CFF !important ;
+        border: 1px solid #009CFF;
+        border-radius: 8px;
+    }
+    .on-set-image{
+        background-color: #f4f4f4;
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+        margin-left: 1rem;
+    }
+    .image-container-mobile{
+        display: none;
+    }
+    .content-section{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2500px){
+    .section-content{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+       
+    }
+    .section-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .desc-section{
+        margin-top: 12px;
+    }
+    .on-contract-btn{
+        margin-top: 40px
+    }
+    .btn-primary{
+        background-color:#009CFF !important ;
+        border: 1px solid #009CFF;
+        border-radius: 8px;
+    }
+    .on-set-image{
+        background-color: #f4f4f4;
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+        margin-left: 1rem;
+    }
+    .image-container-mobile{
+        display: none;
+    }
+    .content-section{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2000px){
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
@@ -108,7 +217,7 @@ export default {
     }
     .content-section{
         margin-top: 3rem;
-        margin-left: 5rem;
+        margin-left: 1rem;
     }
  
 }

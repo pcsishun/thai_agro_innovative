@@ -32,7 +32,140 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 3501px) {
+    .img-container-mobile{
+        display: none;
+    }
+    .easy-install-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding-left: 40rem;
+    }
+    .on-set-image{
+        width: 1000px;
+        height: 580px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        margin-left: 9rem;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .set-content-container{
+        margin-top: 13rem;
+        margin-left: 5rem;
+    }
+    .test-img{
+        background-color: rgb(187, 187, 187);
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width: 3000px) and (max-width: 3500px){
+    .img-container-mobile{
+        display: none;
+    }
+    .easy-install-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding-left: 23rem;
+
+    }
+    .on-set-image{
+        width: 1000px;
+        height: 580px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        margin-left: 9rem;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .set-content-container{
+        margin-top: 13rem;
+        margin-left: 5rem;
+    }
+    .test-img{
+        background-color: rgb(187, 187, 187);
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width: 2500px) and (max-width: 3000px){
+ 
+    .img-container-mobile{
+        display: none;
+    }
+    .easy-install-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding-left: 15rem;
+    }
+    .on-set-image{
+        width: 1000px;
+        height: 580px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        margin-left: 9rem;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .set-content-container{
+        margin-top: 13rem;
+        margin-left: 5rem;
+    }
+    .test-img{
+        background-color: rgb(187, 187, 187);
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2500px){
+    .img-container-mobile{
+        display: none;
+    }
+    .easy-install-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+                
+    }
+    .on-set-image{
+        width: 1000px;
+        height: 580px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        margin-left: 9rem;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .set-content-container{
+        margin-top: 13rem;
+        margin-left: 5rem;
+    }
+    .test-img{
+        background-color: rgb(187, 187, 187);
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 10rem;
+    }
+}
+
+ 
+
+@media screen and (min-width: 1401px) and (max-width: 2000px){
     .img-container-mobile{
         display: none;
     }
@@ -71,6 +204,7 @@ export default {
     .easy-install-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        
     }
     .title-content{
         margin-top: 3rem;

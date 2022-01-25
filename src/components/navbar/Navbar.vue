@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style scoped>
+.nav-link{
+    font-size: 27px;
+}
 @media only screen and (min-width: 990px){
     .navbar-brand{
         margin-left: 60px;
@@ -45,7 +48,7 @@ export default {
         margin-right: 60px;
     }
     .nav-item{
-        width: 8rem;
+        width: 13rem;
         text-align: right;
     }
 }
