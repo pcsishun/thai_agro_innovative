@@ -1,8 +1,8 @@
 <template>
-    <div class="easy-main-container">
-        <div class="easy-main-content">
+    <div class="easy-operate-container">
+        <div class="easy-operate-content">
             <div class="img-container-mobile">
-                <div class="on-set-image">
+                <div class="on-set-image">  
                     
                 </div>
             </div>
@@ -10,10 +10,10 @@
                 <div class="set-content-container">
                     <div class="test-img"></div>
                     <div class="title-content">
-                        <h4>Easy to Maintenance</h4>
+                        <h4>Easy to Operate</h4>
                     </div>
                     <div class="desc-content">
-                        <h6>เป็นโครงสร้างแบบ Modular สามารถซ่อมแซมได้ง่าย พร้อมประกันอุปกรณ์ 1 ปี</h6>
+                        <h6>ใช้งานง่าย สะดวก และรวดเร็ว</h6>
                     </div>
                 </div>
             </div>
@@ -33,11 +33,11 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 3501px)  {
+@media screen and (min-width: 3501px){
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
         padding-left: 40rem;
@@ -69,7 +69,7 @@ export default {
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
         padding-left: 23rem;
@@ -103,7 +103,7 @@ export default {
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
         padding-left: 15rem;
@@ -135,7 +135,7 @@ export default {
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
 
@@ -170,7 +170,7 @@ export default {
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
 
@@ -198,12 +198,11 @@ export default {
         margin-left: 10rem;
     }
 }
-
  @media screen and (min-width: 1310px) and (max-width: 1400px){
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
@@ -231,12 +230,11 @@ export default {
     }
  }
 
-
 @media  screen and (min-width: 990px) and (max-width: 1309px){
     .img-container-mobile{
         display: none;
     }
-    .easy-main-content{
+    .easy-operate-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }

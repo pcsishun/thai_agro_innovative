@@ -414,8 +414,47 @@ export default {
         background-color: rgb(128, 128, 128);
     }
 }
-
-@media only screen and (max-width: 990px){
+@media only screen and (min-width: 601px) and (max-width: 989px){
+ .staff-member-container{
+        margin-top: 39px;
+    }
+    .test-img{
+        background-color: #F4F4F4;
+        width: 290px;
+        height: 185px;
+        margin: auto;
+    }
+    .staff-content{
+        margin-top: 1rem;
+    }
+    .staff-detail > h6{
+        margin-top: 20px
+    }
+    .staff-detail > p{
+        color: #009CFF;
+    }
+    .staff-member-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+        text-align: center;
+    }
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .dot:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}
+@media only screen and (max-width: 600px){
     .staff-member-container{
         margin-top: 39px;
     }

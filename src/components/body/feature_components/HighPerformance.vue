@@ -13,7 +13,7 @@
                         <h4>Small Area <br/>High Performance</h4>
                     </div>
                     <div class="desc-content">
-                        <h6>Detail description</h6>
+                        <h6>เพิ่มผลผลิตต่อพื้นที่ และคุณภาพของอาหารสัตว์</h6>
                     </div>
                 </div>
             </div>
@@ -262,7 +262,31 @@ export default {
     }
 }
 
-@media only screen and (max-width: 990px){
+@media only screen and (min-width: 600px) and (max-width: 990px){
+    .img-container-pc{
+        display: none;
+    }
+   
+    .on-set-image{
+        width: 580px;
+        height: 380px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        text-align: center;
+        margin: auto;
+    }
+    .title-content, .desc-content{
+        margin-left: 1.5rem;
+    }
+ 
+    .content-container{
+        margin-top: 1rem;
+        margin-left: 6rem;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px){
     .img-container-pc{
         display: none;
     }
@@ -275,14 +299,14 @@ export default {
         text-align: center;
         margin: auto;
     }
+    .title-content, .desc-content{
+        margin-left: 1.5rem;
+    }
  
     .content-container{
         margin-top: 1rem;
         margin-left: 8px;
         margin-right: 8px;
-    }
-    .title-content, .desc-content{
-        margin-left: 1.5rem;
     }
 }
 </style>

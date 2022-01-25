@@ -9,10 +9,10 @@
                 <div class="set-content-container">
                     <div class="test-img"></div>
                     <div class="title-content">
-                        <h4>Know down system <br>Easy installation</h4>
+                        <h4>Easy Installation</h4>
                     </div>
                     <div class="desc-content">
-                        <h6>Detail description</h6>
+                        <h6>ตู้ระบบ Knock-down ติดตั้งง่ายพร้อมใช้งานภายในหนึ่งวัน</h6>
                     </div>
                 </div>
             </div>
@@ -262,7 +262,31 @@ export default {
     }
 }
 
-@media only screen and (max-width: 990px){
+@media only screen and (min-width: 600px) and (max-width: 990px){
+    .img-container-pc{
+        display: none;
+    }
+   
+    .on-set-image{
+        width: 580px;
+        height: 380px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        text-align: center;
+        margin: auto;
+    }
+    .title-content, .desc-content{
+        margin-left: 10%;
+    }
+ 
+    .content-container{
+        margin-top: 1rem;
+        margin-left: 6rem;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px){
     .img-container-pc{
         display: none;
     }

@@ -13,7 +13,7 @@
                         <h4>Less Water</h4>
                     </div>
                     <div class="desc-content">
-                        <h6>Detail description</h6>
+                        <h6>ประหยัดแรงงาน และได้ผลผลิตเพิ่มขึ้น</h6>
                     </div>
                 </div>
             </div>

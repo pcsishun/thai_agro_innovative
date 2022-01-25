@@ -7,13 +7,13 @@
             <HighPerformance/>    
         </div>
         <div class="set-component-container">
-            <SaveEnergy/>    
-        </div>
-        <div class="set-component-container">
-            <LessWater/>    
-        </div>
-        <div class="set-component-container">
             <EasyInstallation/>    
+        </div>
+        <div class="set-component-container">
+            <LessLabor/>    
+        </div>
+        <div class="set-component-container">
+            <EasyToOperate/>    
         </div>
         <div class="set-component-container">
             <EasyMaintenace/>    
@@ -36,14 +36,17 @@
 import Navbar from './components/navbar/Navbar.vue'
 import Section from './components/body/Section.vue'
 import HighPerformance from './components/body/feature_components/HighPerformance.vue'
-import SaveEnergy from './components/body/feature_components/SaveEnergy.vue'
-import LessWater from './components/body/feature_components/LessWater.vue'
+// import SaveEnergy from './components/body/feature_components/SaveEnergy.vue'
+// import LessWater from './components/body/feature_components/LessWater.vue'
 import EasyInstallation from './components/body/feature_components/EasyInstallaion.vue'
 import EasyMaintenace from './components/body/feature_components/EasyMaintenace.vue'
+import EasyToOperate from './components/body/feature_components/EasyToOperate.vue'
+import LessLabor from './components/body/feature_components/LessLabor.vue'
 import Mission from './components/body/mission/Mission.vue'
 import Staff from './components/body/staff/Staff.vue'
 import ContactUs from './components/body/contact_us/ContactUs.vue'
 import Footer from './components/footer/Footer.vue'
+
 
 export default {
   name: 'App',
@@ -51,8 +54,10 @@ export default {
     Navbar,
     Section,
     HighPerformance,
-    SaveEnergy,
-    LessWater,
+    EasyToOperate,
+    LessLabor,
+    // SaveEnergy,
+    // LessWater,
     EasyInstallation,
     EasyMaintenace,
     Mission,

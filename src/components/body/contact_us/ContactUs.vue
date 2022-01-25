@@ -180,8 +180,85 @@ export default {
     }
     
 }
+@media only screen and (min-width: 745px) and (max-width: 989px){
+    .title-content{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .set-under-text{
+        color: white;
+        text-align: center;
+    }
+    .on-set-input::placeholder{
+        color: #009CFF;
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 16px;
+    }
+    .input-email-container{
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .on-set-input{
+        width: 300px;    
+    }
+    .contact-content{
+        margin: auto;
+        width: 710px;
+        height: 190px;
+        border-radius: 8px;
+        background: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+    }
+     .input-email-container > button{
+        margin-left: -55px;
+        background:#009CFF;
+        height:25px;
+        font-size: 10px;
+        border-radius: 8px;
+        border: none;
+    }
+}
 
-@media only screen and (max-width: 990px){
+@media only screen and (min-width: 601px) and (max-width: 744px){
+    .title-content{
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .set-under-text{
+        color: white;
+        text-align: center;
+    }
+    .on-set-input::placeholder{
+        color: #009CFF;
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 16px;
+    }
+    .input-email-container{
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .on-set-input{
+        width: 300px;    
+    }
+    .contact-content{
+        margin: auto;
+        width: 590px;
+        height: 190px;
+        border-radius: 8px;
+        background: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+    }
+     .input-email-container > button{
+        margin-left: -55px;
+        background:#009CFF;
+        height:25px;
+        font-size: 10px;
+        border-radius: 8px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
     .title-content{
         color: white;
         text-align: center;

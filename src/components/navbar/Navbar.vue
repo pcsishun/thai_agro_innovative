@@ -33,8 +33,9 @@ export default {
 
 <style scoped>
 .nav-link{
-    font-size: 27px;
+    font-size: 20px;
 }
+ 
 @media only screen and (min-width: 990px){
     .navbar-brand{
         margin-left: 60px;
@@ -48,7 +49,7 @@ export default {
         margin-right: 60px;
     }
     .nav-item{
-        width: 13rem;
+        width: 10rem;
         text-align: right;
     }
 }
