@@ -3,7 +3,7 @@
     <div class="section-content">
         <div class="image-container-mobile">
             <div class="on-set-image">
-
+                <img src="../../assets/contenttai.jpg"/>
             </div>
         </div>
         <div class="content-section">
@@ -20,7 +20,7 @@
         </div>
         <div class="image-container-pc">
             <div class="on-set-image">
-
+                <img src="../../assets/contenttai.jpg"/>
             </div>
         </div>
     </div>
@@ -77,6 +77,11 @@ export default {
         border-radius: 8px;
         margin-left: 1rem;
     }
+    .on-set-image > img{
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+    }
     .image-container-mobile{
         display: none;
     }
@@ -122,6 +127,11 @@ export default {
         height: 460px;
         border-radius: 8px;
         margin-left: 1rem;
+    }
+    .on-set-image > img{
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
@@ -171,6 +181,11 @@ export default {
         border-radius: 8px;
         margin-left: 1rem;
     }
+    .on-set-image > img{
+        width: 800px;
+        height: 460px;
+        border-radius: 8px;
+    }
     .image-container-mobile{
         display: none;
     }
@@ -217,6 +232,11 @@ export default {
         border-radius: 8px;
         margin-left: 1rem;
     }
+    .on-set-image > img{
+            width: 800px;
+            height: 460px;
+            border-radius: 8px;
+        }
     .image-container-mobile{
         display: none;
     }
@@ -264,6 +284,11 @@ export default {
         border-radius: 8px;
         margin-left: 1rem;
     }
+    .on-set-image > img{
+        width: 600px;
+        height: 360px;
+        border-radius: 8px;
+    }
     .image-container-mobile{
         display: none;
     }
@@ -276,7 +301,7 @@ export default {
 @media  screen and (min-width: 990px) and (max-width: 1800px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 30px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -305,6 +330,11 @@ export default {
     }
     .on-set-image{
         background-color: #f4f4f4;
+        width: 600px;
+        height: 360px;
+        border-radius: 8px;
+    }
+    .on-set-image > img{
         width: 600px;
         height: 360px;
         border-radius: 8px;
@@ -355,7 +385,11 @@ export default {
         height: 380px;
         border-radius: 8px;
         margin-bottom: 2rem;
-
+    }
+    .on-set-image > img{
+        width: 580px;
+        height: 380px;
+        border-radius: 8px;
     }
     .image-container-pc{
         display: none;
@@ -408,7 +442,11 @@ export default {
         height: 200px;
         border-radius: 8px;
         margin-bottom: 2rem;
-
+    }
+    .on-set-image > img{
+        width: 360px;
+        height: 200px;
+        border-radius: 8px;
     }
     .image-container-pc{
         display: none;

@@ -8,7 +8,8 @@
             </div>
             <div class="content-container">
                 <div class="set-content-container">
-                    <div class="test-img"></div>
+                    <!-- <div class="test-img"></div> -->
+                    <img class="test-img" src="../../../assets/Lesswater.png"/>
                     <div class="title-content">
                         <h4>Easy to Maintenance</h4>
                     </div>
@@ -57,12 +58,8 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 10rem;
     }
 }
 @media screen and (min-width: 3000px) and (max-width: 3500px){
@@ -90,12 +87,8 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 10rem;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
@@ -123,12 +116,8 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 10rem;
     }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
@@ -155,12 +144,8 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 10rem;
     }
 }
 
@@ -190,12 +175,8 @@ export default {
         margin-left: 4.3rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 10rem;
     }
 }
 
@@ -222,12 +203,8 @@ export default {
         margin-left: 4.3rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 5rem;
     }
  }
 
@@ -255,12 +232,8 @@ export default {
         margin-left: 4.3rem;
     }
     .test-img{
-        background-color: rgb(187, 187, 187);
-        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
-        margin-left: 5rem;
     }
 }
 
@@ -286,6 +259,9 @@ export default {
         margin-left: 6rem;
         margin-right: 8px;
     }
+    .test-img{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -309,6 +285,9 @@ export default {
         margin-top: 1rem;
         margin-left: 8px;
         margin-right: 8px;
+    }
+    .test-img{
+        display: none;
     }
 }
 </style>
