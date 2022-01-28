@@ -14,6 +14,10 @@
         <a href="#"><img  src="../.././assets/youtube.png"/></a>
         <a href="#"><img src="../.././assets/github.png"/></a>
       </div>
+      <div class="set-licens-container-mobile">
+          <div class="head-lc">Term & Privacy</div>
+          <div class="mid-lc">©2022 Thai Argo Innovative</div>
+        </div>
     </div>
   </footer>
 </template>
@@ -70,6 +74,9 @@ export default {
     height: 40px;
     width: 40px
   }
+  .set-licens-container-mobile{
+    display: none;
+  }
 
 }
 
@@ -78,34 +85,26 @@ export default {
     position: absolute;
     bottom: 100;
     width: 100%;
-    height: 150px;
+    height: 300px;
     background-color: #f5f5f5;
   }
   .footer-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
+    text-align: center;
   }
  
- 
-  .set-logo> a > img{
-    margin-left: 1.7rem;
-  }
-  .set-licens-container{
-    margin-left: 2rem;
-  }
-  .set-ref-link{
-    text-align: right;
-    width: 80%;
-  }
 
+  .set-licens-container{
+    display: none;
+  }
   .set-ref-link > a > img {
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     height: 40px;
-    width: 40px
+ 
   }
-
+ 
 }
 
 @media only screen  and (max-width: 600px) {
@@ -113,37 +112,24 @@ export default {
     position: absolute;
     bottom: 100;
     width: 100%;
-    height: 150px;
+    height: 300px;
     background-color: #f5f5f5;
   }
   .footer-container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     margin-top: 2rem;
-
+    text-align: center;
   }
- .set-logo > .set-licens-container{
-   padding-right: 3rem;
  
- }
-  .set-logo> a > img{
-    margin-left: 1.7rem;
-  }
-  .set-licens-container{
-    margin-left: 2rem;
-  }
-  .set-ref-link{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: right;
-    width: 80%;
-  }
 
+  .set-licens-container{
+    display: none;
+  }
   .set-ref-link > a > img {
-    /* margin-left: 20px;
-    margin-top: 10px; */
-    height: 30px;
-    width: 30px
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 40px;
+ 
   }
 
 }

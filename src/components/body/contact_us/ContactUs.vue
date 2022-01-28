@@ -282,7 +282,7 @@ export default {
     }
     .contact-content{
         margin: auto;
-        width: 410px;
+        width: 370px;
         height: 150px;
         border-radius: 8px;
         background: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);

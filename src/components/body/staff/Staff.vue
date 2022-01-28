@@ -458,10 +458,14 @@ export default {
     .staff-member-container{
         margin-top: 39px;
     }
+    .staff-content{
+        margin-top: 1rem;
+    }
     .test-img{
         background-color: #F4F4F4;
-        width: 130px;
-        height: 85px;
+        width: 290px;
+        height: 185px;
+        border-radius: 8px;
         margin: auto;
     }
     .staff-detail > h6{
@@ -471,10 +475,10 @@ export default {
         color: #009CFF;
     }
     .staff-member-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 1rem;
         text-align: center;
+    }
+    .btn-silder{
+        margin-top: 2rem;
     }
     .dot {
         height: 25px;
