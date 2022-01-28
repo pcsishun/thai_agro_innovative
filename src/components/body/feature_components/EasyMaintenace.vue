@@ -260,7 +260,10 @@ export default {
         margin-right: 8px;
     }
     .test-img{
-        display: none;
+        width: 100px;
+        height: 100px;
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -279,6 +282,7 @@ export default {
     }
     .title-content, .desc-content{
         margin-left: 1.5rem;
+        width: 80%;
     }
  
     .content-container{
@@ -287,7 +291,10 @@ export default {
         margin-right: 8px;
     }
     .test-img{
-        display: none;
+        width: 100px;
+        height: 100px;
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
     }
 }
 </style>
