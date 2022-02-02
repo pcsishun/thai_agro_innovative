@@ -2,9 +2,7 @@
     <div class="high-performance-container">
         <div class="high-performance-content">
             <div class="img-container-mobile">
-                <div class="on-set-image">
-                    
-                </div>
+                <img class="on-set-image" src="../../../assets/hightper.png"/>
             </div>
             <div class="content-container">
                 <div class="set-content-container">
@@ -21,9 +19,7 @@
                 </div>
             </div>
              <div class="img-container-pc">
-                <div class="on-set-image">
-                    
-                </div>
+                <img class="on-set-image" src="../../../assets/hightper.png"/>
             </div>
         </div>
     </div>
@@ -74,7 +70,7 @@ export default {
         padding-left: 23rem;
 
     }
-    .on-set-image{
+    .on-set-image {
         width: 1000px;
         height: 580px;
         border-radius: 8px;
@@ -103,7 +99,7 @@ export default {
         grid-template-columns: 1fr 2fr;
         padding-left: 15rem;
     }
-    .on-set-image{
+    .on-set-image {
         width: 1000px;
         height: 580px;
         border-radius: 8px;
@@ -131,7 +127,7 @@ export default {
         grid-template-columns: 1fr 2fr;
 
     }
-    .on-set-image{
+    .on-set-image {
         width: 1000px;
         height: 580px;
         border-radius: 8px;
@@ -162,7 +158,7 @@ export default {
         grid-template-columns: 1fr 2fr;
 
     }
-    .on-set-image{
+    .on-set-image {
         width: 780px;
         height: 480px;
         border-radius: 8px;
@@ -192,7 +188,7 @@ export default {
     .title-content{
         margin-top: 3rem;
     }
-    .on-set-image{
+    .on-set-image {
         width: 780px;
         height: 480px;
         border-radius: 8px;
@@ -220,7 +216,7 @@ export default {
     .title-content{
         margin-top: 3rem;
     }
-    .on-set-image{
+    .on-set-image {
         width: 680px;
         height: 380px;
         border-radius: 8px;
@@ -241,8 +237,11 @@ export default {
     .img-container-pc{
         display: none;
     }
-   
-    .on-set-image{
+    .img-container-mobile{
+        text-align: center;
+        margin: auto;
+    }
+    .on-set-image {
         width: 580px;
         height: 380px;
         border-radius: 8px;
@@ -271,8 +270,11 @@ export default {
     .img-container-pc{
         display: none;
     }
-   
-    .on-set-image{
+    .img-container-mobile{
+        text-align: center;
+        margin: auto;
+    }
+    .on-set-image {
         width: 360px;
         height: 200px;
         border-radius: 8px;
@@ -290,7 +292,7 @@ export default {
         margin-left: 8px;
         margin-right: 8px;
     }
-    .test-img{
+    .test-img {
         width: 100px;
         height: 100px;
         margin-left: 1.5rem;

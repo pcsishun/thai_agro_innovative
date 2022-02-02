@@ -2,9 +2,7 @@
     <div class="less-labor-container">
         <div class="less-labor-content">
             <div class="img-container-mobile">
-                <div class="on-set-image">  
-                    
-                </div>
+                <img class="on-set-image" src="../../../assets/labor.jpg"/>
             </div>
             <div class="content-container">
                 <div class="set-content-container">
@@ -19,9 +17,7 @@
                 </div>
             </div>
              <div class="img-container-pc">
-                <div class="on-set-image">
-                    
-                </div>
+                 <img class="on-set-image" src="../../../assets/labor.jpg"/>
             </div>
         </div>
     </div>
@@ -247,7 +243,10 @@ export default {
     .img-container-pc{
         display: none;
     }
-   
+    .img-container-mobile{
+        text-align: center;
+        margin: auto;
+    }
     .on-set-image{
         width: 580px;
         height: 380px;
@@ -277,7 +276,10 @@ export default {
     .img-container-pc{
         display: none;
     }
-   
+    .img-container-mobile{
+        text-align: center;
+        margin: auto;
+    } 
     .on-set-image{
         width: 360px;
         height: 200px;
