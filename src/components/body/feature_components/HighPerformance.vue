@@ -7,9 +7,7 @@
             <div class="content-container">
                 <div class="set-content-container">
                     <img class="test-img" src="../../../assets/Smallarea.png"/>
-                    <!-- <div class="test-img">
-                        
-                    </div> -->
+            
                     <div class="title-content">
                         <h4>Small Area <br/>High Performance</h4>
                     </div>

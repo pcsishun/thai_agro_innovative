@@ -15,7 +15,7 @@
                 <h6>ระบบ Vertical Farming สำหรับการเพาะปลูกอาหาร เลี้ยงปศุสัตว์ รูปแบบ Knock-down ที่ขับเคลื่อนด้วย Technology AI และ IoT Device เพื่อให้การดูแลปศุสัตว์เป็นเรื่องง่ายและยั่งยืน</h6>
             </div>
             <div class="on-contract-btn">
-                <button class="btn btn-primary">Contact us</button>
+                <button class="btn btn-primary">About product</button>
             </div>
         </div>
         <div class="image-container-pc">
@@ -66,8 +66,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -117,8 +117,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -170,8 +170,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -221,8 +221,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -273,8 +273,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -324,8 +324,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -375,8 +375,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
@@ -432,8 +432,8 @@ export default {
         margin-top: 40px
     }
     .btn-primary{
-        background-color:#009CFF !important ;
-        border: 1px solid #009CFF;
+        background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
+        border: none;
         border-radius: 8px;
     }
     .on-set-image{
