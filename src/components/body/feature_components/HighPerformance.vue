@@ -5,16 +5,19 @@
                 <img class="on-set-image" src="../../../assets/hightper.png"/>
             </div>
             <div class="content-container">
-                <div class="set-content-container">
-                    <img class="test-img" src="../../../assets/Smallarea.png"/>
-            
-                    <div class="title-content">
-                        <h4>Small Area <br/>High Performance</h4>
-                    </div>
-                    <div class="desc-content">
-                        <h6>เพิ่มผลผลิตต่อพื้นที่ และคุณภาพของอาหารสัตว์</h6>
+                <div class="content-set-container">
+                    <div class="set-content-container">
+                        <img class="test-img" src="../../../assets/Smallarea.png"/>
+                
+                        <div class="title-content">
+                            <h4>Small Area <br/>High Performance</h4>
+                        </div>
+                        <div class="desc-content">
+                            <h6>เพิ่มผลผลิตต่อพื้นที่ และคุณภาพของอาหารสัตว์</h6>
+                        </div>
                     </div>
                 </div>
+
             </div>
              <div class="img-container-pc">
                 <img class="on-set-image" src="../../../assets/hightper.png"/>
@@ -30,6 +33,7 @@ export default {
 </script>
 
 <style scoped>
+ 
 @media screen and (min-width: 3501px){
     .img-container-mobile{
         display: none;
@@ -37,20 +41,26 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 40rem;
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .on-set-image{
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+        width: 94%;
+        height: 1080px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
@@ -65,21 +75,28 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 23rem;
+        grid-column-gap: 1rem;
 
     }
+    .img-container-pc{
+        text-align: right;
+    }
     .on-set-image {
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+        width: 90%;
+        height: 880px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
@@ -95,20 +112,27 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 15rem;
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .on-set-image {
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+        width: 90%;
+        height: 780px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
@@ -123,20 +147,26 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .on-set-image {
-        width: 1000px;
+        width: 90%;
         height: 580px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
@@ -154,20 +184,27 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
 
     }
+    .img-container-pc{
+        text-align: right;
+    }
     .on-set-image {
-        width: 780px;
+        width: 90%;
         height: 480px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 8rem;
+        margin-top: 3rem;
         margin-left: 4.3rem;
     }
     .test-img{
@@ -182,20 +219,28 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .img-container-pc{
+        text-align: right;
+    }
     .on-set-image {
-        width: 780px;
+        width: 95%;
         height: 480px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 6rem;
+    }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .set-content-container{
-        margin-top: 5rem;
+        margin-top: 3rem;
         margin-left: 4.3rem;
+        margin-right: 1rem;
     }
     .test-img{
             width: 100px;
@@ -210,20 +255,29 @@ export default {
     .high-performance-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .title-content{
         margin-top: 3rem;
     }
     .on-set-image {
-        width: 680px;
+        width: 95%;
         height: 380px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 6rem;
+     
+    }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .set-content-container{
-        margin-top: 5rem;
-        margin-left: 4.3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .test-img{
         width: 100px;
@@ -240,9 +294,9 @@ export default {
         margin: auto;
     }
     .on-set-image {
-        width: 580px;
+        width: 78%;
         height: 380px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         text-align: center;
         margin: auto;
@@ -252,9 +306,13 @@ export default {
     }
  
     .content-container{
+        width: 78%;
+        margin-left: 10%;
         margin-top: 1rem;
-        margin-left: 6rem;
-        margin-right: 8px;
+        border-radius: 24px;
+        margin-right: 10%;
+        height: 250px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .test-img{
         width: 100px;
@@ -271,11 +329,12 @@ export default {
     .img-container-mobile{
         text-align: center;
         margin: auto;
+
     }
     .on-set-image {
-        width: 360px;
-        height: 200px;
-        border-radius: 8px;
+        width: 95%;
+        height: 230px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         text-align: center;
         margin: auto;
@@ -284,11 +343,15 @@ export default {
         margin-left: 1.5rem;
         width: 80%;
     }
- 
-    .content-container{
+     .content-container{
+        width: 95%;
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+        height: 250px;
+        margin: auto;
+    }
+    .content-set-container{
         margin-top: 1rem;
-        margin-left: 8px;
-        margin-right: 8px;
     }
     .test-img {
         width: 100px;

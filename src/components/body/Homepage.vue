@@ -2,7 +2,7 @@
     <div class="homepage-container">
         <div class="body-container">
             <div class="set-component-header">
-                <HeaderVison/>
+                <HeaderVison id="is-set-mission"/>
             </div>
             <div class="set-component-section">
                 <Section class="set-section-component" id="is-set-vison"/>
@@ -21,9 +21,6 @@
             </div>
             <div class="set-component-container">
                 <EasyMaintenace/>    
-            </div>
-            <div class="set-component-container-mission" id="is-set-mission">
-                <Mission/>    
             </div>
             <div class="set-component-container-staff" id="is-set-staff">
                 <Staff/>    
@@ -44,7 +41,7 @@ import EasyInstallation from './feature_components/EasyInstallaion.vue'
 import EasyMaintenace from './feature_components/EasyMaintenace.vue'
 import EasyToOperate from './feature_components/EasyToOperate.vue'
 import LessLabor from './feature_components/LessLabor.vue'
-import Mission from './mission/Mission.vue'
+
 import Staff from './staff/Staff.vue'
 import ContactUs from './contact_us/ContactUs.vue'
 import Footer from '../footer/Footer.vue'
@@ -60,7 +57,7 @@ export default {
     LessLabor,
     EasyInstallation,
     EasyMaintenace,
-    Mission,
+
     Staff,
     ContactUs,
     Footer

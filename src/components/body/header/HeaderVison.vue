@@ -38,7 +38,6 @@ export default {
 
 .on-set-content{
     position:absolute;
-    margin-top: 130px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -51,6 +50,66 @@ export default {
 }
 .set-more-over{
     color: white;
+}
+@media only screen and (min-width: 601px)and (max-width: 989px){
+    .header-container{
+        text-align:center ;
+        margin-bottom: 140px;
+    }
+    .set-main-img{
+        width:  100%;
+        height: 100%;
+    }
+
+    .on-set-content{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .set-vison{
+        padding-bottom: 40px;
+    }
+    .set-logo{
+        padding-bottom: 85px;
+    }
+    .set-more-over{
+        color: white;
+    }
+    br{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .header-container{
+        text-align:center ;
+        margin-bottom: 140px;
+    }
+    .set-main-img{
+        width:  100%;
+        height: 100%;
+    }
+
+    .on-set-content{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .set-vison{
+        padding-bottom: 40px;
+    }
+    .set-logo{
+        padding-bottom: 85px;
+    }
+    .set-more-over{
+        color: white;
+    }
+    br{
+        display: none;
+    }
 }
  
 </style>

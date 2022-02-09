@@ -37,20 +37,26 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 40rem;
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .on-set-image{
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+        width: 94%;
+        height: 1080px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
@@ -65,27 +71,34 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 23rem;
+       grid-column-gap: 1rem;
 
     }
-    .on-set-image{
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+    .img-container-pc{
+        text-align: right;
+    }
+    .on-set-image {
+        width: 90%;
+        height: 880px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
-    }
+            width: 100px;
+            height: 100px;
+        }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
  
@@ -95,26 +108,34 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-left: 15rem;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
     }
-    .on-set-image{
-        width: 1000px;
-        height: 580px;
-        border-radius: 8px;
+    .img-container-pc{
+        text-align: right;
+    }
+    .on-set-image {
+        width: 90%;
+        height: 780px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
-    }
+            width: 100px;
+            height: 100px;
+        }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
     .img-container-mobile{
@@ -123,26 +144,32 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
-
+        grid-column-gap: 1rem;
     }
-    .on-set-image{
-        width: 1000px;
+    .img-container-pc{
+        text-align: right;
+    }
+    .on-set-image {
+        width: 90%;
         height: 580px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 13rem;
+        margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
-    }
+            width: 100px;
+            height: 100px;
+        }
 }
 
  
@@ -154,26 +181,33 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
 
     }
-    .on-set-image{
-        width: 780px;
+    .img-container-pc{
+        text-align: right;
+    }
+    .on-set-image {
+        width: 90%;
         height: 480px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 9rem;
     }
     .title-content{
         margin-top: 3rem;
     }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
     .set-content-container{
-        margin-top: 8rem;
+        margin-top: 3rem;
         margin-left: 4.3rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
-    }
+            width: 100px;
+            height: 100px;
+        }
 }
 
  @media screen and (min-width: 1310px) and (max-width: 1400px){
@@ -183,25 +217,33 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+         grid-column-gap: 1rem;
     }
     .title-content{
         margin-top: 3rem;
     }
-    .on-set-image{
-        width: 780px;
+    .img-container-pc{
+        text-align: right;
+    }
+    .on-set-image {
+        width: 95%;
         height: 480px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 6rem;
+    }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .set-content-container{
-        margin-top: 5rem;
+        margin-top: 3rem;
         margin-left: 4.3rem;
+        margin-right: 1rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
-    }
+            width: 100px;
+            height: 100px;
+        }
  }
 
 
@@ -212,20 +254,29 @@ export default {
     .easy-main-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1rem;
+    }
+    .img-container-pc{
+        text-align: right;
     }
     .title-content{
         margin-top: 3rem;
     }
-    .on-set-image{
-        width: 680px;
+    .on-set-image {
+        width: 95%;
         height: 380px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
-        margin-left: 6rem;
+     
+    }
+    .content-container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .set-content-container{
-        margin-top: 5rem;
-        margin-left: 4.3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .test-img{
         width: 100px;
@@ -241,10 +292,10 @@ export default {
         text-align: center;
         margin: auto;
     } 
-    .on-set-image{
-        width: 580px;
+    .on-set-image {
+        width: 78%;
         height: 380px;
-        border-radius: 8px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         text-align: center;
         margin: auto;
@@ -254,9 +305,13 @@ export default {
     }
  
     .content-container{
+        width: 78%;
+        margin-left: 10%;
         margin-top: 1rem;
-        margin-left: 6rem;
-        margin-right: 8px;
+        border-radius: 24px;
+        margin-right: 10%;
+        height: 250px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
     .test-img{
         width: 100px;
@@ -274,10 +329,10 @@ export default {
         text-align: center;
         margin: auto;
     } 
-    .on-set-image{
-        width: 360px;
-        height: 200px;
-        border-radius: 8px;
+    .on-set-image {
+        width: 95%;
+        height: 230px;
+        border-radius: 24px;
         background-color: #F4F4F4;
         text-align: center;
         margin: auto;
@@ -286,13 +341,17 @@ export default {
         margin-left: 1.5rem;
         width: 80%;
     }
- 
-    .content-container{
-        margin-top: 1rem;
-        margin-left: 8px;
-        margin-right: 8px;
+     .content-container{
+        width: 95%;
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+        height: 250px;
+        margin: auto;
     }
-    .test-img{
+    .content-set-container{
+        margin-top: 1rem;
+    }
+    .test-img {
         width: 100px;
         height: 100px;
         margin-left: 1.5rem;
