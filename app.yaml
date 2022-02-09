@@ -1,4 +1,3 @@
-service: thaiagroinnovative
 runtime: nodejs16
 handlers:
 - url: /(.*\..+)$ 

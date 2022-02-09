@@ -3,7 +3,7 @@
     <div class="section-content">
         <div class="image-container-mobile">
             <div class="on-set-image">
-                <img src="../../assets/contenttai.jpg"/>
+                <img src="../../../assets/contenttai.jpg"/>
             </div>
         </div>
         <div class="content-section">
@@ -15,12 +15,12 @@
                 <h6>ระบบ Vertical Farming สำหรับการเพาะปลูกอาหาร เลี้ยงปศุสัตว์ รูปแบบ Knock-down ที่ขับเคลื่อนด้วย Technology AI และ IoT Device เพื่อให้การดูแลปศุสัตว์เป็นเรื่องง่ายและยั่งยืน</h6>
             </div>
             <div class="on-contract-btn">
-                <button class="btn btn-primary">About product</button>
+                <router-link to="./product" class="btn-primary"><button>About Product</button></router-link >
             </div>
         </div>
         <div class="image-container-pc">
             <div class="on-set-image">
-                <img src="../../assets/contenttai.jpg"/>
+                <img src="../../../assets/contenttai.jpg"/>
             </div>
         </div>
     </div>
@@ -68,7 +68,15 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
+        text-decoration: none;
         border-radius: 8px;
+        padding: 10px;
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -120,6 +128,14 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         border-radius: 8px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -173,6 +189,14 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         border-radius: 8px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -224,6 +248,14 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         border-radius: 8px;
+        text-decoration: none;
+        padding: 10px
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -276,6 +308,14 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         border-radius: 8px;
+        text-decoration: none;
+        padding: 10px
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -326,7 +366,15 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
+        text-decoration: none;
         border-radius: 8px;
+        padding: 10px
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -377,7 +425,15 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
+        text-decoration: none;
         border-radius: 8px;
+        padding: 10px;
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
@@ -429,12 +485,20 @@ export default {
         margin-top: 12px;
     }
     .on-contract-btn{
-        margin-top: 40px
+        margin-top: 40px;
     }
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         border-radius: 8px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .btn-primary > button{
+        background: none;
+        border: none;
+        color: white;
+        font-weight: bold;
     }
     .on-set-image{
         background-color: #f4f4f4;
