@@ -3,7 +3,7 @@
     <div class="section-content">
         <div class="image-container-mobile">
             <div class="on-set-image">
-                <img src="../../../assets/contenttai.jpg"/>
+                <img src="../../../assets/TAI_workflow.png"/>
             </div>
         </div>
         <div class="content-section">
@@ -20,7 +20,7 @@
         </div>
         <div class="image-container-pc">
             <div class="on-set-image">
-                <img src="../../../assets/contenttai.jpg"/>
+                <img src="../../../assets/TAI_workflow.png"/>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ export default {
 @media screen and (min-width: 3501px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 120px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -52,11 +52,8 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
+        grid-column-gap:  1rem;
        
-    }
-    .section-container{
-        margin-left: 100px;
-        margin-right: 100px;
     }
     .desc-section{
         margin-top: 12px;
@@ -69,40 +66,38 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         text-decoration: none;
-        border-radius: 8px;
-        padding: 10px;
+        border-radius: 24px;
+        padding: 30px;
+        font-size: 50px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 300px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 800px;
-        height: 460px;
-        border-radius: 8px;
-        margin-left: 1rem;
-    }
+ 
     .on-set-image > img{
-        width: 800px;
-        height: 460px;
+        width: 90%;
+        height: 1060px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
-        margin-left: 1rem;
-        padding-left: 35rem;
+    h2{
+        font-size:100px;
     }
+    h6{
+        font-size: 50px;
+    }
+ 
 }
 @media screen and (min-width: 3001px) and (max-width: 3500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 120px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -112,10 +107,8 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
-    }
-    .section-container{
-        margin-left: 100px;
-        margin-right: 100px;
+        grid-column-gap:  1rem;
+       
     }
     .desc-section{
         margin-top: 12px;
@@ -127,41 +120,38 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
-        border-radius: 8px;
         text-decoration: none;
-        padding: 10px;
+        border-radius: 24px;
+        padding: 30px;
+        font-size: 50px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 300px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 800px;
-        height: 460px;
-        border-radius: 8px;
-        margin-left: 1rem;
-    }
+ 
     .on-set-image > img{
-        width: 800px;
-        height: 460px;
+        width: 90%;
+        height: 880px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
-        margin-left: 1rem;
-        padding-left: 17rem;
+    h2{
+        font-size:100px;
+    }
+    h6{
+        font-size: 50px;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 90px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -171,12 +161,8 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
-        padding-right: 5rem;
-        padding-left: 6rem;
-    }
-    .section-container{
-        margin-left: 100px;
-        margin-right: 100px;
+        grid-column-gap:  1rem;
+       
     }
     .desc-section{
         margin-top: 12px;
@@ -188,40 +174,38 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
-        border-radius: 8px;
         text-decoration: none;
-        padding: 10px;
+        border-radius: 24px;
+        padding: 20px;
+        font-size: 30px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 300px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 800px;
-        height: 460px;
-        border-radius: 8px;
-        margin-left: 1rem;
-    }
+ 
     .on-set-image > img{
-        width: 800px;
-        height: 460px;
+        width: 90%;
+        height: 780px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
-        margin-left: 1rem;
+    h2{
+        font-size:70px;
+    }
+    h6{
+        font-size: 40px;
     }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 70px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -231,11 +215,8 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
+        grid-column-gap:  1rem;
        
-    }
-    .section-container{
-        margin-left: 100px;
-        margin-right: 100px;
     }
     .desc-section{
         margin-top: 12px;
@@ -247,41 +228,39 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
-        border-radius: 8px;
         text-decoration: none;
-        padding: 10px
+        border-radius: 24px;
+        padding: 20px;
+        font-size: 30px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 300px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 800px;
-        height: 460px;
-        border-radius: 8px;
-        margin-left: 1rem;
-    }
+ 
     .on-set-image > img{
-            width: 800px;
-            height: 460px;
-            border-radius: 8px;
-        }
+        width: 90%;
+        height: 580px;
+        border-radius: 8px;
+    }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
-        margin-left: 1rem;
+    h2{
+        font-size:50px;
+    }
+    h6{
+        font-size: 30px;
     }
 }
 
 @media screen and (min-width: 1800px) and (max-width: 2000px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 60px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -291,11 +270,8 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
+        grid-column-gap:  1rem;
        
-    }
-    .section-container{
-        margin-left: 100px;
-        margin-right: 100px;
     }
     .desc-section{
         margin-top: 12px;
@@ -307,34 +283,32 @@ export default {
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
-        border-radius: 8px;
         text-decoration: none;
-        padding: 10px
+        border-radius: 24px;
+        padding: 20px;
+        font-size: 30px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 200px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 600px;
-        height: 360px;
-        border-radius: 8px;
-        margin-left: 1rem;
-    }
+ 
     .on-set-image > img{
-        width: 600px;
-        height: 360px;
+        width: 90%;
+        height: 580px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
-        margin-left: 1rem;
+    h2{
+        font-size:50px;
+    }
+    h6{
+        font-size: 30px;
     }
  
 }
@@ -351,14 +325,13 @@ export default {
     .section-content{
         display: grid;
         grid-template-columns:  1fr 1fr;
-    }
-    .section-container{
-        margin-left: 60px;
-        margin-right: 60px;
+        grid-column-gap:  1rem;
+        margin-left: 2rem;
+       
     }
     .desc-section{
         margin-top: 12px;
-        width: 95%;
+        width: 80%;
     }
     .on-contract-btn{
         margin-top: 40px
@@ -367,34 +340,31 @@ export default {
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         border: none;
         text-decoration: none;
-        border-radius: 8px;
-        padding: 10px
+        border-radius: 24px;
+        padding: 10px;
+        font-size: 20px;
     }
     .btn-primary > button{
         background: none;
         border: none;
         color: white;
         font-weight: bold;
+        height: 200px;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 600px;
-        height: 360px;
-        border-radius: 8px;
-    }
+ 
     .on-set-image > img{
-        width: 600px;
-        height: 360px;
+        width: 95%;
+        height: 380px;
         border-radius: 8px;
-    }
-    .image-container-pc{
-        margin-left: 3rem;
     }
     .image-container-mobile{
         display: none;
     }
-    .content-section{
-        margin-top: 3rem;
+    h2{
+        font-size:25px;
+    }
+    h6{
+        font-size: 15px;
     }
  
 }
@@ -435,15 +405,9 @@ export default {
         color: white;
         font-weight: bold;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 580px;
-        height: 380px;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
+ 
     .on-set-image > img{
-        width: 580px;
+        width: 80%;
         height: 380px;
         border-radius: 8px;
     }
@@ -500,15 +464,9 @@ export default {
         color: white;
         font-weight: bold;
     }
-    .on-set-image{
-        background-color: #f4f4f4;
-        width: 360px;
-        height: 200px;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
+  
     .on-set-image > img{
-        width: 360px;
+        width: 99%;
         height: 200px;
         border-radius: 8px;
     }

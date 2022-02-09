@@ -4,30 +4,33 @@
             <div class="set-component-header">
                 <HeaderVison id="is-set-mission"/>
             </div>
-            <div class="set-component-section">
-                <Section class="set-section-component" id="is-set-vison"/>
+            <div class="body-feature-container">
+                <div class="set-component-section">
+                    <Section class="set-section-component" id="is-set-vison"/>
+                </div>
+                <div class="set-component-container"  id="is-set-feature">
+                    <HighPerformance/>    
+                </div>
+                <div class="set-component-container">
+                    <EasyInstallation/>    
+                </div>
+                <div class="set-component-container">
+                    <LessLabor/>    
+                </div>
+                <div class="set-component-container">
+                    <EasyToOperate/>    
+                </div>
+                <div class="set-component-container">
+                    <EasyMaintenace/>    
+                </div>
+                <div class="set-component-container-staff" id="is-set-staff">
+                    <Staff/>    
+                </div>
+                <div class="set-component-container" id="is-set-contact">
+                    <ContactUs class="contact-us"/>    
+                </div>
             </div>
-            <div class="set-component-container"  id="is-set-feature">
-                <HighPerformance/>    
-            </div>
-            <div class="set-component-container">
-                <EasyInstallation/>    
-            </div>
-            <div class="set-component-container">
-                <LessLabor/>    
-            </div>
-            <div class="set-component-container">
-                <EasyToOperate/>    
-            </div>
-            <div class="set-component-container">
-                <EasyMaintenace/>    
-            </div>
-            <div class="set-component-container-staff" id="is-set-staff">
-                <Staff/>    
-            </div>
-            <div class="set-component-container" id="is-set-contact">
-                <ContactUs class="contact-us"/>    
-            </div>
+            
         </div>
     <Footer class="set-footer"/>
     </div>
@@ -90,6 +93,10 @@ export default {
  }
 
   @media screen and (min-width: 1500px) and (max-width: 1799px) {
+      .body-feature-container{
+ 
+          margin-right: 5rem;
+      }
     .set-section-component{
           padding-left: 5rem;
     }
@@ -113,6 +120,10 @@ export default {
   }
 
   @media screen and (min-width: 1401px) and (max-width: 1499px) {
+      .body-feature-container{
+          margin-left: 1rem;
+          margin-right: 1rem;
+      }
    .set-component-container{
         margin-top: 160px;
     }

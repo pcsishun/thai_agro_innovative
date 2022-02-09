@@ -62,8 +62,15 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
+    }
+    h4{
+        font-size: 65px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 50px;
     }
 }
 @media screen and (min-width: 3000px) and (max-width: 3500px){
@@ -94,9 +101,16 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-     width: 100px;
-     height: 100px;
-     }
+        width: 250px;
+        height: 250px;
+    }
+    h4{
+        font-size: 60px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 45px;
+    }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
  
@@ -126,9 +140,16 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-     width: 100px;
-     height: 100px;
-     }
+        width: 200px;
+        height: 200px;
+    }
+    h4{
+        font-size: 50px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 35px;
+    }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
     .img-container-mobile{
@@ -158,9 +179,16 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-     width: 100px;
-     height: 100px;
-     }
+        width: 165px;
+        height: 165px;
+    }
+    h4{
+        font-size: 38px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 28px;
+    }
 }
 
  
@@ -193,9 +221,16 @@ export default {
         margin-left: 4.3rem;
     }
     .test-img{
-     width: 100px;
-     height: 100px;
-     }
+        width: 125px;
+        height: 125px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 25px;
+    }
 }
  @media screen and (min-width: 1310px) and (max-width: 1400px){
     .img-container-mobile{
@@ -225,9 +260,16 @@ export default {
         margin-right: 1rem;
     }
     .test-img{
-     width: 100px;
-     height: 100px;
-     }
+        width: 115px;
+        height: 115px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 20px;
+    }
  }
 
 @media  screen and (min-width: 990px) and (max-width: 1309px){
