@@ -370,7 +370,8 @@ export default {
     .img-container-mobile{
         text-align: center;
         margin: auto;
-    } 
+
+    }
     .on-set-image {
         width: 95%;
         height: 230px;
@@ -390,7 +391,7 @@ export default {
         height: 250px;
         margin: auto;
     }
-    .content-set-container{
+    .set-content-container{
         margin-top: 1rem;
     }
     .test-img {

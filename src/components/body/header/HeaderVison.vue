@@ -660,7 +660,7 @@ export default {
     }
     .set-main-img{
         width:  100%;
-        height: 100%;
+        height: 400px;
     }
     .on-set-content-fix{
         position: relative;
@@ -669,16 +669,12 @@ export default {
     .on-set-content{
         position:absolute;
         width: 99%;
-        top: 50%;
+        top: 53%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin-top: 10px;
     }
-/*  
-    .set-vison{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    } */
+
     .set-vison > h2{
         animation: fadetitle ease 3s;
         animation-iteration-count: 1;
@@ -686,15 +682,15 @@ export default {
         font-size: 18px;
     }
     .set-logo{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .set-logo > img{
         animation: fadeword ease 5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
-        height: 40px;
-        width: 30px;
+        height: 90px;
+        width: 63px;
     }
     .set-more-over{
         color: white;
@@ -703,13 +699,13 @@ export default {
         animation: fadeword ease 5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
-        font-size: 10px;
+        font-size: 15px;
     }
     i{
         animation: fadeword ease 5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
-        font-size: 10px;
+        font-size: 15px;
         font-weight: bold;
     }
     @keyframes fadetitle {

@@ -6,49 +6,49 @@
                     <h4>ทีมงาน</h4>
                 </div>
                 <div class="title-desc">
-                    <h6>Detail description</h6>
+                    <!-- <h6>Detail description</h6> -->
                 </div>
             </div>
             <div class="set-staff-container">
                 <div class="staff-member-container" v-if="menuChange === '0'">
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name1</h6>
+                            <h6>{{ $root.state.staff.Thantakorn.name }}</h6>
                             <button @click="haddleProfile('1')"><StaffDetail/></button>
                             <!-- <p>View bio ></p> -->
                         </div>
                     </div>
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name2</h6>
+                            <h6 >{{ $root.state.staff.Rawipas.name }}</h6>
                             <button @click="haddleProfile('2')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name3</h6>
+                            <h6 >{{ $root.state.staff.Tawan.name }}</h6>
                             <button @click="haddleProfile('3')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                           <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name4</h6>
+                            <h6 >{{ $root.state.staff.Natta.name }}</h6>
                           <button @click="haddleProfile('4')"><StaffDetail/></button>
                         </div>
                     </div>
@@ -56,44 +56,44 @@
                 <div class="staff-member-container" v-if="menuChange === '1'">
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name5</h6>
+                            <h6 >{{ $root.state.staff.Joseph.name }}</h6>
                             <button @click="haddleProfile('5')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name6</h6>
+                            <h6 >{{ $root.state.staff.Thanapol.name }}</h6>
                             <button @click="haddleProfile('6')"><StaffDetail/></button>
                         </div>
                     </div>
                     <div class="staff-content">
                         <div class="img-container">
-                            <div class="test-img"></div>
+                            <img class="test-img" src="../../../assets/avatar_unname.jpg"/>
                             <!-- <img/> -->
                         </div>
                         <div class="staff-detail">
-                            <h6 >Member name7</h6>
+                            <h6 >{{ $root.state.staff.Sorrakrit.name }}</h6>
                             <button @click="haddleProfile('7')"><StaffDetail/></button>
                         </div>
                     </div>
-                    <div class="staff-content">
+                    <!-- <div class="staff-content">
                         <div class="img-container">
                             <div class="test-img"></div>
-                            <!-- <img/> -->
+            
                         </div>
                         <div class="staff-detail">
                             <h6 >Member name8</h6>
                             <button @click="haddleProfile('8')"><StaffDetail/></button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="btn-silder">
                      <button class="dot" @click="haddleChange('0')"></button>
@@ -126,53 +126,101 @@ export default {
         },
         haddleProfile(param){
             if(param === "1"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Thantakorn.address,
+                    tel: this.$root.state.staff.Thantakorn.tel,
+                    email: this.$root.state.staff.Thantakorn.email,
+                    desc: this.$root.state.staff.Thantakorn.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 1"
-                this.$root.state.staffPosition = "Position test 1"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                this.$root.state.stafffName =  this.$root.state.staff.Thantakorn.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Thantakorn.position;
+                this.$root.state.staffDetail = contactStaff;
             }
             else if(param === "2"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Rawipas.address,
+                    tel: this.$root.state.staff.Rawipas.tel,
+                    email: this.$root.state.staff.Rawipas.email,
+                    desc: this.$root.state.staff.Rawipas.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 2"
-                this.$root.state.staffPosition = "Position test 2"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Rawipas.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Rawipas.position;
+                this.$root.state.staffDetail = contactStaff; 
             }
             else if(param === "3"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Tawan.address,
+                    tel: this.$root.state.staff.Tawan.tel,
+                    email: this.$root.state.staff.Tawan.email,
+                    desc: this.$root.state.staff.Tawan.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 3"
-                this.$root.state.staffPosition = "Position test 3"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Tawan.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Tawan.position;
+                this.$root.state.staffDetail = contactStaff;    
             }
             else if(param === "4"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Natta.address,
+                    tel: this.$root.state.staff.Natta.tel,
+                    email: this.$root.state.staff.Natta.email,
+                    desc: this.$root.state.staff.Natta.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 4"
-                this.$root.state.staffPosition = "Position test 4"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Natta.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Natta.position;
+                this.$root.state.staffDetail = contactStaff; 
             }
             else if(param === "5"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Joseph.address,
+                    tel: this.$root.state.staff.Joseph.tel,
+                    email: this.$root.state.staff.Joseph.email,
+                    desc: this.$root.state.staff.Joseph.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 5"
-                this.$root.state.staffPosition = "Position test 5"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Joseph.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Joseph.position;
+                this.$root.state.staffDetail = contactStaff;      
             }
             else if(param === "6"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Thanapol.address,
+                    tel: this.$root.state.staff.Thanapol.tel,
+                    email: this.$root.state.staff.Thanapol.email,
+                    desc: this.$root.state.staff.Thanapol.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 6"
-                this.$root.state.staffPosition = "Position test 6"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Thanapol.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Thanapol.position;
+                this.$root.state.staffDetail = contactStaff;  
             }
             else if(param === "7"){
+                const contactStaff = {
+                    address: this.$root.state.staff.Sorrakrit.address,
+                    tel: this.$root.state.staff.Sorrakrit.tel,
+                    email: this.$root.state.staff.Sorrakrit.email,
+                    desc: this.$root.state.staff.Sorrakrit.desc
+                };
                 this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 7"
-                this.$root.state.staffPosition = "Position test 7"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
+                this.$root.state.stafffName =  this.$root.state.staff.Sorrakrit.name;
+                this.$root.state.staffPosition = this.$root.state.staff.Sorrakrit.position;
+                this.$root.state.staffDetail = contactStaff;     
             }
-            else if(param === "8"){
-                this.$root.state.staffImgPath = null,
-                this.$root.state.stafffName = "TEST user 8"
-                this.$root.state.staffPosition = "Position test 8"
-                this.$root.state.staffDetail = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."        
-            }
+            // else if(param === "8"){
+            //     const contactStaff = {
+            //         address: this.$root.state.Thantakorn.address,
+            //         tel: this.$root.state.Thantakorn.tel,
+            //         email: this.$root.state.Thantakorn.email,
+            //         desc: this.$root.state.Thantakorn.desc
+            //     };
+            //     this.$root.state.staffImgPath = null,
+            //     this.$root.state.stafffName =  this.$root.state.Thantakorn.name;
+            //     this.$root.state.staffPosition = this.$root.state.Thantakorn.position;
+            //     this.$root.state.staffDetail = contactStaff; 
+            // }
         }
     }
 }
@@ -341,7 +389,6 @@ export default {
         margin-top: 39px;
     }
     .test-img{
-        background-color: #F4F4F4;
         width: 340px;
         height: 270px;
     }
