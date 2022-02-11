@@ -96,8 +96,8 @@
                     </div> -->
                 </div>
                 <div class="btn-silder">
-                     <button class="dot" @click="haddleChange('0')"></button>
-                    <button class="dot" @click="haddleChange('1')"></button>
+                     <button class="dot" @click="haddleChange('0')">&#9673;</button>
+                    <button class="dot" @click="haddleChange('1')">&#9673;</button>
                 </div>
             </div>
         </div>
@@ -255,19 +255,16 @@ export default {
         margin-top: 1rem;
         text-align: center;
     }
+ 
     .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: rgb(193, 193, 193);
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media screen and (min-width: 3000px) and (max-width: 3500px){
@@ -294,18 +291,14 @@ export default {
         text-align: center;
     }
     .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: none;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: none;
+    display: inline-block;
+    color: rgb(193, 193, 193);
+    border: none;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
@@ -332,18 +325,14 @@ export default {
         text-align: center;
     }
     .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: rgb(193, 193, 193);
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media screen and (min-width: 2001px) and (max-width: 2500px){
@@ -370,18 +359,14 @@ export default {
         text-align: center;
     }
     .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: rgb(193, 193, 193);
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media screen and (min-width: 1800px) and (max-width: 2000px){
@@ -407,18 +392,14 @@ export default {
         text-align: center;
     }
     .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: rgb(193, 193, 193);
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 
@@ -447,18 +428,14 @@ export default {
         text-align: center;
     }
     .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+    background: none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: rgb(193, 193, 193);
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 989px){
@@ -487,18 +464,14 @@ export default {
         text-align: center;
     }
     .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: none;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: none;
+    display: inline-block;
+    color: rgb(193, 193, 193);
+    border: none;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 @media only screen and (max-width: 600px){
@@ -528,18 +501,14 @@ export default {
         margin-top: 2rem;
     }
     .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        border: none;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: none;
+    display: inline-block;
+    color: rgb(193, 193, 193);
+    border: none;
+ 
     }
     .dot:hover{
-        background-color: rgb(128, 128, 128);
+        color: rgb(128, 128, 128);
     }
 }
 </style>
