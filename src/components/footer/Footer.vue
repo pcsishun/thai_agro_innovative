@@ -35,10 +35,13 @@ export default {
 
   @media only screen and (min-width: 991px){
     .footer {
-    position: absolute;
+    /* position: absolute;
     bottom: 100;
-    width: 100%;
-    height: 90px;
+    width: 100%; */
+    clear: both;
+    position: relative;
+    height: 5px;
+    margin-top: -5px;
     background-color: #f5f5f5;
     }
 
@@ -46,7 +49,8 @@ export default {
       display: grid;
       width: 100%;
       grid-template-columns: 1fr 1fr;
-      margin-top: 10px;
+      padding-top: 10px;
+      background-color: #f5f5f5;
     }
   
   .set-logo{
@@ -57,6 +61,7 @@ export default {
     margin-right: 3rem;
     margin-top: 1.5rem;
     margin-left: 1rem;
+    
   }
   .set-logo> a  > img{
     margin-left: 60px;
@@ -67,15 +72,17 @@ export default {
     text-align: right;
     margin-right: 5rem;
     margin-top: 1rem;
+    
   }
 
   .set-ref-link > a > img {
     margin-left: 20px;
     height: 40px;
-    width: 40px
+    width: 40px;
   }
   .set-licens-container-mobile{
     display: none;
+    
   }
 
 }

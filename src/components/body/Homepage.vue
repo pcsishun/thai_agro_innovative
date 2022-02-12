@@ -69,9 +69,9 @@ export default {
 </script>
 
 <style  scoped>
-.set-footer{
+/* .set-footer{
    margin-top: 60px;
- }
+ } */
 
  @media screen and (min-width: 1800px){
      .set-section-component{
@@ -125,7 +125,7 @@ export default {
           margin-right: 1rem;
       }
    .set-component-container{
-        margin-top: 160px;
+        margin-top: 100px;
     }
     .set-component-container-mission{
         margin-top: 147px;

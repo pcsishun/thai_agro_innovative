@@ -9,9 +9,14 @@
                     <h6>Get a new update</h6>
                 </div>
             </div>
-            <div class="input-email-container">
+            <!-- <div class="input-email-container">
                 <input class="on-set-input" placeholder="Enter your email address"/>
                 <button class="btn btn-primary">Send</button>
+            </div> -->
+            <div class="on-contact-container">
+                <router-link class="set-btn-link" to="/contact">
+                    <button class="btn btn-primary" @click="haddleOnPage">Contact</button>
+                </router-link>
             </div>
         </div>
     </div>
@@ -19,12 +24,34 @@
 
 <script>
 export default {
+    data(){
+        return{
 
+        }
+    },
+    methods:{
+        haddleOnPage(){
+            this.$root.state.atPage = "contact"
+        }
+    }
 }
 </script>
 
 <style scoped>
+.contact-container{
+    margin-bottom: 50px;
+}
+.on-contact-container{
+    text-align: center;   
+}
 
+.on-contact-container > .set-btn-link > button{
+    border-radius: 8px;
+    margin-top: 45px;
+    background:#009CFF;
+    border: none;
+    width: 15%;
+}
 
 @media screen and (min-width: 1800px){
  
@@ -71,7 +98,6 @@ export default {
         background:#009CFF;
         border-radius: 8px;
         border: none;
-        
     }
 }
 
@@ -295,6 +321,13 @@ export default {
         border-radius: 8px;
         border: none;
     }
+    .on-contact-container > .set-btn-link > button{
+    border-radius: 8px;
+    margin-top: 10px;
+    background:#009CFF;
+    border: none;
+    width: 25%;
+}
 }
 
 </style>

@@ -4,6 +4,7 @@ const store = {
         stafffName:null,
         staffPosition:null,
         staffDetail:null,
+        atPage: "home",
         staff:{
             Thantakorn: {
                 avatarPath:"",
@@ -53,7 +54,7 @@ const store = {
             Thanapol:{
                 avatarPath:"",
                 name:"ธนพล ชินกังวาลวงศ์",
-                position:"CIO",
+                position:"Sales Executive",
                 address:"305/1 หมู่ 6 ต.หนองจ๊อม อ.สันทราย จ.เชียงใหม่ 50210",
                 tel:"+66 83 478 4611",
                 email:"thanapol@thaiagroinnovative.com",
@@ -68,7 +69,6 @@ const store = {
                 email:"",
                 desc:""               
             }
-
         }
     }
 }

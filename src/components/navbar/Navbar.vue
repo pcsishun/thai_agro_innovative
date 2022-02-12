@@ -6,7 +6,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" v-if="$root.state.atPage = 'home'">
                     <li class="nav-item">
                         <a class="nav-link" href="#is-set-feature">ฟีเจอร์การใช้งาน</a>
                     </li>
@@ -18,6 +18,20 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#is-set-contact">ติดต่อเรา</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav" v-if="$root.state.atPage = 'contact'">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#is-set-feature">ฟีเจอร์การใช้งาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#is-set-mission">พันธกิจ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#is-set-staff" >ทีมงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#is-set-contact">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>

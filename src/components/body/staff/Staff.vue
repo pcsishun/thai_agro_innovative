@@ -424,7 +424,7 @@ export default {
         color: #009CFF;
     }
     .btn-silder{
-        margin-top: 1rem;
+        margin-top: 3rem;
         text-align: center;
     }
     .dot {
