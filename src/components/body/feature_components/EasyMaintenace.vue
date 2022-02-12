@@ -51,7 +51,10 @@ export default {
         margin-left: 9rem;
     }
     .title-content{
-        margin-top: 3rem;
+        margin-top: 3rem; 
+    }
+    .desc-content{
+        padding-right: 1rem;
     }
     .content-container{
         border-radius: 24px;
@@ -95,6 +98,9 @@ export default {
     }
     .title-content{
         margin-top: 3rem;
+    }
+    .desc-content{
+        padding-right: 1rem;
     }
     .content-container{
         border-radius: 24px;
@@ -140,6 +146,9 @@ export default {
     .title-content{
         margin-top: 3rem;
     }
+    .desc-content{
+        padding-right: 1rem;
+    }
     .content-container{
         border-radius: 24px;
         background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
@@ -182,6 +191,9 @@ export default {
     }
     .title-content{
         margin-top: 3rem;
+    }
+    .desc-content{
+        padding-right: 1rem;
     }
     .content-container{
         border-radius: 24px;
