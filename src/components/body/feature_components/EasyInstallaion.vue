@@ -39,16 +39,15 @@ export default {
         display: none;
     }
     .easy-install-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap: 1rem;
-    }
-    .img-container-pc{
-        text-align: left;
+        grid-template-columns: 1.3fr 2fr;
+        grid-column-gap: 10rem;
     }
     .on-set-image{
-        width: 95%;
-        height: 1080px;
+        width: 1300px;
+        height: 710px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -56,6 +55,7 @@ export default {
         margin-top: 3rem;
     }
     .content-container{
+        padding-right: 40px;
         border-radius: 24px;
         background: linear-gradient(180deg, rgba(220, 37, 125, 0.15) 0%, rgba(220, 37, 125, 0.05) 100%);
     }
@@ -64,30 +64,31 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     h4{
-        font-size: 65px;
+        font-size: 50px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 50px;
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 3000px) and (max-width: 3500px){
-    .img-container-mobile{
+     .img-container-mobile{
         display: none;
     }
     .easy-install-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-auto-columns: 1rem;
-
+        grid-template-columns: 1.3fr 2fr;
+        grid-column-gap: 10rem;
     }
     .on-set-image{
-        width: 90%;
-        height: 880px;
+        width: 1300px;
+        height: 710px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -95,23 +96,24 @@ export default {
         margin-top: 3rem;
     }
     .content-container{
+        padding-right: 40px;
         border-radius: 24px;
-       background: linear-gradient(180deg, rgba(220, 37, 125, 0.15) 0%, rgba(220, 37, 125, 0.05) 100%);
+        background: linear-gradient(180deg, rgba(220, 37, 125, 0.15) 0%, rgba(220, 37, 125, 0.05) 100%);
     }
     .set-content-container{
         margin-top: 5rem;
         margin-left: 5rem;
     }
     .test-img{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     h4{
-        font-size: 60px;
+        font-size: 50px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
@@ -120,13 +122,15 @@ export default {
         display: none;
     }
     .easy-install-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap: 1rem;
+        grid-template-columns: 1.3fr 2fr;
+        grid-column-gap: 10rem;
     }
     .on-set-image{
-        width: 90%;
-        height: 780px;
+        width: 1300px;
+        height: 710px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -134,6 +138,7 @@ export default {
         margin-top: 3rem;
     }
     .content-container{
+        padding-right: 40px;
         border-radius: 24px;
         background: linear-gradient(180deg, rgba(220, 37, 125, 0.15) 0%, rgba(220, 37, 125, 0.05) 100%);
     }
@@ -158,13 +163,17 @@ export default {
         display: none;
     }
     .easy-install-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap: 1rem;
-                
+        grid-template-columns: 1.5fr 2fr;
+        grid-column-gap: 8rem;       
+    }
+    .img-container-pc{
+        text-align: left;
     }
     .on-set-image{
-        width: 90%;
+        width: 1060px;
         height: 580px;
         border-radius: 24px;
         background-color: #F4F4F4;
@@ -201,12 +210,12 @@ export default {
     }
     .easy-install-content{
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap: 1rem;
+        grid-template-columns: 1.5fr 2fr;
+        grid-column-gap: 2rem;
     }
-
+ 
     .on-set-image{
-        width: 90%;
+        width: 960px;
         height: 480px;
         border-radius: 24px;
         background-color: #F4F4F4;
@@ -246,6 +255,7 @@ export default {
     .title-content{
         margin-top: 3rem;
     }
+ 
     .on-set-image{
         width: 95%;
         height: 480px;

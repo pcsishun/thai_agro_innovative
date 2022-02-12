@@ -8,7 +8,6 @@
                 <div class="content-set-container">
                     <div class="set-content-container">
                         <img class="test-img" src="../../../assets/Smallarea.png"/>
-                
                         <div class="title-content">
                             <h4>Small Area <br/>High Performance</h4>
                         </div>
@@ -39,58 +38,17 @@ export default {
         display: none;
     }
     .high-performance-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 1rem;
+        grid-template-columns: 1.3fr 2fr;
     }
     .img-container-pc{
-        text-align: right;
-    }
-    .on-set-image{
-        width: 94%;
-        height: 1080px;
-        border-radius: 24px;
-        background-color: #F4F4F4;
-    }
-    .title-content{
-        margin-top: 3rem;
-    }
-    .content-container{
-        border-radius: 24px;
-        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
-    }
-    .set-content-container{
-        margin-top: 5rem;
-        margin-left: 5rem;
-    }
-    .test-img{
-        width: 300px;
-        height: 300px;
-    }
-    h4{
-        font-size: 65px;
-    }
-    h6{
-        margin-top: 1.5rem;
-        font-size: 50px;
-    }
-}
-@media screen and (min-width: 3000px) and (max-width: 3500px){
-    .img-container-mobile{
-        display: none;
-    }
-    .high-performance-content{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 1rem;
-
-    }
-    .img-container-pc{
-        text-align: right;
+        text-align: center;
     }
     .on-set-image {
-        width: 90%;
-        height: 880px;
+        width: 1300px;
+        height: 710px;
         border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
@@ -99,6 +57,7 @@ export default {
         margin-top: 3rem;
     }
     .content-container{
+        padding-right: 40px;
         border-radius: 24px;
         background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
@@ -107,15 +66,59 @@ export default {
         margin-left: 5rem;
     }
     .test-img{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     h4{
-        font-size: 60px;
+        font-size: 50px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 45px;
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 3000px) and (max-width: 3500px){
+    .img-container-mobile{
+        display: none;
+    }
+    .high-performance-content{
+        width: 2000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.3fr 2fr;
+    }
+    .img-container-pc{
+        text-align: center;
+    }
+    .on-set-image {
+        width: 1300px;
+        height: 710px;
+        border-radius: 24px;
+        background-color: #F4F4F4;
+        margin-left: 9rem;
+    }
+    .title-content{
+        margin-top: 3rem;
+    }
+    .content-container{
+        padding-right: 40px;
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
+    }
+    .set-content-container{
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    .test-img{
+        width: 200px;
+        height: 200px;
+    }
+    h4{
+        font-size: 50px;
+    }
+    h6{
+        margin-top: 1.5rem;
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
@@ -124,16 +127,17 @@ export default {
         display: none;
     }
     .high-performance-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 1rem;
+        grid-template-columns: 1.3fr 2fr;
     }
     .img-container-pc{
-        text-align: right;
+        text-align: center;
     }
     .on-set-image {
-        width: 90%;
-        height: 780px;
+        width: 1300px;
+        height: 710px;
         border-radius: 24px;
         background-color: #F4F4F4;
         margin-left: 9rem;
@@ -142,6 +146,7 @@ export default {
         margin-top: 3rem;
     }
     .content-container{
+        padding-right: 40px;
         border-radius: 24px;
         background: linear-gradient(180deg, rgba(0, 156, 255, 0.15) 0%, rgba(0, 156, 255, 0.05) 100%);
     }
@@ -166,15 +171,17 @@ export default {
         display: none;
     }
     .high-performance-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1.5fr 2fr;
         grid-column-gap: 1rem;
     }
     .img-container-pc{
         text-align: right;
     }
     .on-set-image {
-        width: 90%;
+        width: 1060px;
         height: 580px;
         border-radius: 24px;
         background-color: #F4F4F4;
@@ -211,15 +218,15 @@ export default {
     }
     .high-performance-content{
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 1rem;
+        grid-template-columns: 1.5fr 2fr;
+        grid-column-gap: 2rem;
 
     }
     .img-container-pc{
         text-align: right;
     }
     .on-set-image {
-        width: 90%;
+        width: 960px;
         height: 480px;
         border-radius: 24px;
         background-color: #F4F4F4;

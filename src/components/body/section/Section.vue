@@ -24,7 +24,6 @@
             </div>
         </div>
     </div>
- 
   </div>
 </template>
 
@@ -40,9 +39,10 @@ export default {
 <style  scoped>
 
 @media screen and (min-width: 3501px){
+ 
     .inline-text-set{
         font-weight: bold;
-        font-size: 120px;
+        font-size: 60px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -50,10 +50,11 @@ export default {
         background-clip: text;
     }
     .section-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-column-gap:  1rem;
-       
     }
     .desc-section{
         margin-top: 12px;
@@ -67,8 +68,8 @@ export default {
         border: none;
         text-decoration: none;
         border-radius: 24px;
-        padding: 30px;
-        font-size: 50px;
+        padding: 20px;
+        font-size: 30px;
     }
     .btn-primary > button{
         background: none;
@@ -77,27 +78,32 @@ export default {
         font-weight: bold;
         height: 300px;
     }
- 
+    .image-container-pc{
+        text-align: right;
+    }
     .on-set-image > img{
-        width: 90%;
-        height: 1060px;
+        width: 1000px;
+        height: 650px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:100px;
+        font-size:45px;
     }
     h6{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .content-section{
+        text-align: left;
     }
  
 }
 @media screen and (min-width: 3001px) and (max-width: 3500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 120px;
+        font-size: 60px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -105,6 +111,8 @@ export default {
         background-clip: text;
     }
     .section-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-column-gap:  1rem;
@@ -122,8 +130,8 @@ export default {
         border: none;
         text-decoration: none;
         border-radius: 24px;
-        padding: 30px;
-        font-size: 50px;
+        padding: 20px;
+        font-size: 30px;
     }
     .btn-primary > button{
         background: none;
@@ -134,24 +142,27 @@ export default {
     }
  
     .on-set-image > img{
-        width: 90%;
-        height: 880px;
+        width: 1000px;
+        height: 650px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:100px;
+        font-size:45px;
     }
     h6{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .content-section{
+        text-align: left;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 90px;
+        font-size: 60px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -159,6 +170,8 @@ export default {
         background-clip: text;
     }
     .section-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-column-gap:  1rem;
@@ -188,24 +201,27 @@ export default {
     }
  
     .on-set-image > img{
-        width: 90%;
-        height: 780px;
+        width: 1000px;
+        height: 650px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:70px;
+        font-size:45px;
     }
     h6{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .content-section{
+        text-align: left;
     }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 70px;
+        font-size: 60px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -213,6 +229,8 @@ export default {
         background-clip: text;
     }
     .section-content{
+        width: 2000px;
+        margin: auto;
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-column-gap:  1rem;
@@ -242,18 +260,21 @@ export default {
     }
  
     .on-set-image > img{
-        width: 90%;
-        height: 580px;
+        width: 900px;
+        height: 550px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:50px;
+        font-size:45px;
     }
     h6{
         font-size: 30px;
+    }
+    .content-section{
+        text-align: left;
     }
 }
 
@@ -271,7 +292,6 @@ export default {
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-column-gap:  1rem;
-       
     }
     .desc-section{
         margin-top: 12px;
@@ -297,25 +317,28 @@ export default {
     }
  
     .on-set-image > img{
-        width: 90%;
-        height: 580px;
+        width: 740px;
+        height: 450px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:50px;
+        font-size:35px;
     }
     h6{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .content-section{
+        text-align: left;
     }
  
 }
 @media  screen and (min-width: 990px) and (max-width: 1800px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 40px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -353,18 +376,21 @@ export default {
     }
  
     .on-set-image > img{
-        width: 95%;
-        height: 380px;
+        width: 640px;
+        height: 400px;
         border-radius: 8px;
     }
     .image-container-mobile{
         display: none;
     }
     h2{
-        font-size:25px;
+        font-size:35px;
     }
     h6{
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .content-section{
+        text-align: left;
     }
  
 }
@@ -424,6 +450,7 @@ export default {
     .content-section{
         margin-left: 6.3rem;
         margin-right: 6.3rem;
+
     }
  
 }
