@@ -6,25 +6,29 @@
       <div class="contact-content">
           <div class="set-grid">
                 <div class="label-title">
-                    <i class='fas fa-address-card' style='font-size:30px'></i>
+                    <img class="set-icon-img"  style="height:30px; width:30px" src="../../assets/notebook.png">
+                    <!-- <i class='fas fa-address-card' style='font-size:30px'></i> -->
                 </div>
                 <div class="label-text">
                     ธนพล ชินกังวาลวงศ์ 
                 </div>
                 <div class="label-title">
-                    <i class='fas fa-compass' style='font-size:30px'></i>
+                    <img class="set-icon-img"  style="height:30px; width:30px" src="../../assets/gps.png">
+                    <!-- <i class='fas fa-compass' style='font-size:30px'></i> -->
                 </div>
                 <div class="label-text">
                     ที่อยู่ : 305/1 หมู่ 6 ต.หนองจ๊อม อ.สันทราย จ.เชียงใหม่ 50210
                 </div>
                 <div class="label-title">
-                    <i class='fas fa-phone' style='font-size:30px'></i>
+                    <img class="set-icon-img"  style="height:30px; width:30px" src="../../assets/telephone.png">
+                    <!-- <i class='fas fa-phone' style='font-size:30px'></i> -->
                 </div>
                 <div class="label-text">
                     +66 83 478 4611
                 </div>
                 <div class="label-title">
-                    <i class='fas fa-envelope-open' style='font-size:30px'></i>
+                    <img class="set-icon-img"  style="height:30px; width:30px" src="../../assets/email.png">
+                    <!-- <i class='fas fa-envelope-open' style='font-size:30px'></i> -->
                 </div>
                 <div class="label-text">
                    thanapol@thaiagroinnovative.com
@@ -100,6 +104,10 @@ export default {
 
     .set-title{
         margin-top: 5rem
+    }
+    .set-icon-img{
+        height: 30px;
+        width: 30px;
     }
 
     .set-grid{

@@ -50,7 +50,7 @@ export default {
     margin-top: 45px;
     background:#009CFF;
     border: none;
-    width: 15%;
+    width: 300px;
 }
 
 @media screen and (min-width: 1800px){
@@ -60,7 +60,7 @@ export default {
     text-align: center;
     font-size: 49px;
     font-weight: 600;
-    padding-top: 60px;
+    padding-top: 120px;
 }
 
 .set-under-text{
@@ -83,7 +83,7 @@ export default {
     .contact-content{
         margin: auto;
         width: 100%;
-        height: 320px;
+        height: 420px;
         border-radius: 8px;
         background: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
     }

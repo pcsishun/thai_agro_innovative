@@ -45,7 +45,7 @@ export default {
     }
     .on-set-image{
         width: 1300px;
-        height: 710px;
+        height: 810px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -59,18 +59,18 @@ export default {
     }
     .set-content-container{
         margin-top: 5rem;
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
     .test-img{
         width: 200px;
         height: 200px;
     }
     h4{
-        font-size: 50px;
+        font-size: 45px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 @media screen and (min-width: 3000px) and (max-width: 3500px){
@@ -86,7 +86,7 @@ export default {
     }
     .on-set-image{
         width: 1300px;
-        height: 710px;
+        height: 810px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -100,18 +100,18 @@ export default {
     }
     .set-content-container{
         margin-top: 5rem;
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
     .test-img{
         width: 200px;
         height: 200px;
     }
     h4{
-        font-size: 50px;
+        font-size: 45px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 @media screen and (min-width: 2500px) and (max-width: 3000px){
@@ -128,7 +128,7 @@ export default {
     }
     .on-set-image{
         width: 1300px;
-        height: 710px;
+        height: 810px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -142,18 +142,18 @@ export default {
     }
     .set-content-container{
         margin-top: 5rem;
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
     .test-img{
         width: 200px;
         height: 200px;
     }
     h4{
-        font-size: 50px;
+        font-size: 45px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 @media screen and (min-width: 2000px) and (max-width: 2500px){
@@ -172,7 +172,7 @@ export default {
     }
     .on-set-image{
         width: 1060px;
-        height: 580px;
+        height: 680px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -185,18 +185,18 @@ export default {
     }
     .set-content-container{
         margin-top: 5rem;
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
     .test-img{
         width: 165px;
         height: 165px;
     }
     h4{
-        font-size: 38px;
+        font-size: 45px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 28px;
+        font-size: 30px;
     }
 }
 
@@ -214,7 +214,7 @@ export default {
 
     .on-set-image{
         width: 960px;
-        height: 480px;
+        height: 580px;
         border-radius: 24px;
         background-color: #F4F4F4;
     }
@@ -227,18 +227,18 @@ export default {
     }
     .set-content-container{
         margin-top: 3rem;
-        margin-left: 4.3rem;
+        margin-left: 2rem;
     }
     .test-img{
         width: 125px;
         height: 125px;
     }
     h4{
-        font-size: 30px;
+        font-size: 35px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
  @media screen and (min-width: 1310px) and (max-width: 1400px){
@@ -265,7 +265,7 @@ export default {
     }
     .set-content-container{
         margin-top: 3rem;
-        margin-left: 4.3rem;
+        margin-left: 2rem;
         margin-right: 1rem;
     }
     .test-img{
@@ -273,11 +273,11 @@ export default {
         height: 115px;
     }
     h4{
-        font-size: 25px;
+        font-size: 30px;
     }
     h6{
         margin-top: 1.5rem;
-        font-size: 20px;
+        font-size: 15px;
     }
  }
 

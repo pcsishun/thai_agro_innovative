@@ -42,7 +42,7 @@ export default {
  
     .inline-text-set{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 55px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -103,7 +103,7 @@ export default {
 @media screen and (min-width: 3001px) and (max-width: 3500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 55px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -162,7 +162,7 @@ export default {
 @media screen and (min-width: 2500px) and (max-width: 3000px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 55px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -221,7 +221,7 @@ export default {
 @media screen and (min-width: 2000px) and (max-width: 2500px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 55px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -281,7 +281,7 @@ export default {
 @media screen and (min-width: 1800px) and (max-width: 2000px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 45px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -306,7 +306,7 @@ export default {
         text-decoration: none;
         border-radius: 24px;
         padding: 20px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .btn-primary > button{
         background: none;
@@ -338,7 +338,7 @@ export default {
 @media  screen and (min-width: 990px) and (max-width: 1800px){
     .inline-text-set{
         font-weight: bold;
-        font-size: 40px;
+        font-size: 35px;
         background-image: -webkit-gradient(linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%));
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
         color:transparent;
@@ -346,18 +346,18 @@ export default {
         background-clip: text;
     }
     .section-content{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        grid-column-gap:  1rem;
-        margin-left: 2rem;
-       
-    }
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+            grid-column-gap:  1rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
     .desc-section{
         margin-top: 12px;
         width: 80%;
     }
     .on-contract-btn{
-        margin-top: 40px
+        margin-top: 20px
     }
     .btn-primary{
         background-image: linear-gradient(180deg, #009CFF 0%, #2B9CE6 21.35%, #7E5CAC 57.81%, #DC257D 100%);
@@ -365,7 +365,7 @@ export default {
         text-decoration: none;
         border-radius: 24px;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .btn-primary > button{
         background: none;
@@ -374,9 +374,9 @@ export default {
         font-weight: bold;
         height: 200px;
     }
- 
+
     .on-set-image > img{
-        width: 640px;
+        width: 630px;
         height: 400px;
         border-radius: 8px;
     }
@@ -384,10 +384,10 @@ export default {
         display: none;
     }
     h2{
-        font-size:35px;
+        font-size:30px;
     }
     h6{
-        font-size: 20px;
+        font-size: 15px;
     }
     .content-section{
         text-align: left;
